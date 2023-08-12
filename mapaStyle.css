@@ -30,8 +30,8 @@ body {
   letter-spacing: 0;
 }
 
-.format-parrafo{
-  display: flex; 
+.format-parrafo {
+  display: flex;
   justify-content: space-between;
 }
 
