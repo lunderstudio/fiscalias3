@@ -25,7 +25,7 @@ function select_estado(idEstado) {
 
 estado_lista =  [
     {
-      "Entidad": "Aguascalientes Armando",
+      "Entidad": "Aguascalientes",
       "Denuncias": "117",
       "Investigaciones": "2",
       "Carpetas": "117",
