@@ -5,11 +5,12 @@
 <script src="https://cdn.amcharts.com/lib/4/geodata/mexicoLow.js"></script>
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
 
-<script src="selectestado.js?v=002"></script>
+<script src="InformacionEstados.js?v=001"></script>
+<script src="selectestado.js?v=003"></script>
 <link rel="stylesheet" type="text/css" href="mapaStyle.css?v=001">
 
 <div id="mapasvg">
@@ -42,6 +43,26 @@
   <div class="card border-card">
     <div class="card-body">
       <h4 class="card-title text-card-title" id="idEntidad">Federal</h4>
+      <div class="row">
+        <form id="radio_box_años">
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+
+            <input type="radio" class="btn-check" name="años" value="2019" id="btnradio2019" autocomplete="off" checked>
+            <label class="btn btn-outline-warning" for="btnradio2019">2019</label>
+
+            <input type="radio" class="btn-check" name="años" value="2020" id="btnradio2020" autocomplete="off">
+            <label class="btn btn-outline-warning" for="btnradio2020">2020</label>
+
+            <input type="radio" class="btn-check" name="años" value="2021" id="btnradio2021" autocomplete="off">
+            <label class="btn btn-outline-warning" for="btnradio2021">2021</label>
+
+            <input type="radio" class="btn-check" name="años" value="2021" id="btnradio2022" autocomplete="off">
+            <label class="btn btn-outline-warning" for="btnradio2022">2022</label>
+
+          </div>
+        </form>
+
+      </div>
       <div class="row">
         <div class="col-md-4">
           <p class="text-title"> Proceso de Investigación</p>

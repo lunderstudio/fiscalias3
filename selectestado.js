@@ -1,3 +1,13 @@
+$(document).ready(function () {
+  //set initial state.
+  console.log(datos_estados);
+
+  $('#radio_box_años').change(function () {
+    selected_value = $("input[name='años']:checked").val();
+    console.log(selected_value);
+  });
+});
+
 function select_estado(idEstado) {
   let info_estado = estado_lista.find(x => x.Entidad === idEstado)
 
