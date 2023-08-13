@@ -2,6 +2,7 @@ datos_estados = {
     "2019": [
         {
             "Entidad": "Aguascalientes",
+            "Año": "2019",
             "Denuncias": "117",
             "Investigaciones": "2",
             "Carpetas": "117",
@@ -730,6 +731,7 @@ datos_estados = {
     "2020": [
         {
             "Entidad": "Aguascalientes",
+            "Año":"2020",
             "Denuncias": "117",
             "Investigaciones": "2",
             "Carpetas": "117",
@@ -1458,6 +1460,7 @@ datos_estados = {
     "2021": [
         {
             "Entidad": "Aguascalientes",
+            "Año":"2021",
             "Denuncias": "117",
             "Investigaciones": "2",
             "Carpetas": "117",
@@ -2186,6 +2189,7 @@ datos_estados = {
     "2022": [
         {
             "Entidad": "Aguascalientes",
+            "Año":"2022",
             "Denuncias": "117",
             "Investigaciones": "2",
             "Carpetas": "117",
