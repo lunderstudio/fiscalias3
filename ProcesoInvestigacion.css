@@ -4,3 +4,32 @@
     height: 350px;
     /* width: 50vw; */
 }
+
+.card-presupuesto {
+    background-color: #eff4fe;
+    box-shadow: 0 4px 4px #00000040;
+    justify-content: center;
+    padding: 8px;
+}
+
+.card-monto {
+    background-color: #fcfbf7;
+    box-shadow: 0 4px 4px #00000040;
+    justify-content: center;
+    padding: 8px;
+}
+
+.texto-card{
+    --framer-font-family: "Roboto";
+    --framer-font-size: 14px;
+    --framer-font-weight: 500;
+    --framer-letter-spacing: 0.4px;
+    --framer-text-color: rgba(94, 101, 110, 1);
+}
+.texto-card-monto{
+    --framer-font-family: "Fira Sans";
+    --framer-font-size: 20px;
+    --framer-font-weight: 600;
+    --framer-letter-spacing: 0px;
+}
+
