@@ -42,142 +42,140 @@
   </div>
 </div>
 <div class="container-fluid">
-  <div class="card-deck">
-    <div class="card">
-      <!-- <div class="card border-card"> -->
-      <!-- Card Proceso de Investicacion -->
-      <div class="card-body">
-        <h4 class="card-title text-card-title" id="idEntidad">Federal</h4>
-        <div class="row">
-          <form id="radio_box_años">
-            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
 
-              <input type="radio" class="btn-check" name="años" value="2019" id="btnradio2019" autocomplete="off">
-              <label class="btn btn-outline-warning" for="btnradio2019">2019</label>
+  <div class="card">
+    <!-- <div class="card border-card"> -->
+    <!-- Card Proceso de Investicacion -->
+    <div class="card-body">
+      <h4 class="card-title text-card-title" id="idEntidad">Federal</h4>
+      <div class="row">
+        <form id="radio_box_años">
+          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
 
-              <input type="radio" class="btn-check" name="años" value="2020" id="btnradio2020" autocomplete="off">
-              <label class="btn btn-outline-warning" for="btnradio2020">2020</label>
+            <input type="radio" class="btn-check" name="años" value="2019" id="btnradio2019" autocomplete="off">
+            <label class="btn btn-outline-warning" for="btnradio2019">2019</label>
 
-              <input type="radio" class="btn-check" name="años" value="2021" id="btnradio2021" autocomplete="off">
-              <label class="btn btn-outline-warning" for="btnradio2021">2021</label>
+            <input type="radio" class="btn-check" name="años" value="2020" id="btnradio2020" autocomplete="off">
+            <label class="btn btn-outline-warning" for="btnradio2020">2020</label>
 
-              <input type="radio" class="btn-check" name="años" value="2022" id="btnradio2022" autocomplete="off"
-                checked>
-              <label class="btn btn-outline-warning" for="btnradio2022">2022</label>
+            <input type="radio" class="btn-check" name="años" value="2021" id="btnradio2021" autocomplete="off">
+            <label class="btn btn-outline-warning" for="btnradio2021">2021</label>
 
-            </div>
-          </form>
-        </div>
-
-        <div class="row">
-          <div class="col-md-8">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Proceso de Investigación.</h5>
-                <div class="chart-container">
-                  <canvas id="chartProcesoInv"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="card" style="height: 98px; padding-bottom: 1em;">
-                  <div class="card-body">
-                    <h5 class="card-title">Presupuesto Otorgado.</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="card" style="height: 98px">
-                  <div class="card-body">
-                    <h5 class="card-title">Monto recuperado.</h5>
-                  </div>
-                </div>
-              </div>
-
-            </div>
+            <input type="radio" class="btn-check" name="años" value="2022" id="btnradio2022" autocomplete="off" checked>
+            <label class="btn btn-outline-warning" for="btnradio2022">2022</label>
 
           </div>
-        </div>
-
-        <row class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-md-5">
-                    <p class="text-title">Resolución de carpetas de investigación</p>
-                    <div class="row">
-                      <div class="col-sm">
-                        <div class="row">
-                          <div class="col">
-                            <p class="text-parrafo-subtitulo">Resolución de carpetas <br> en combate a corrupción</p>
-                            <div class="text-total-green">
-                              <p class="text-center">Total <span id="idTotalCombate">&nbsp;&nbsp;3%</span></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="format-parrafo">
-                          <p class="text-parrafo">Judicialización</p>
-                          <p class="text-number" id="idJudicialización">83</p>
-                        </div>
-                        <div class="format-parrafo">
-                          <p class="text-parrafo">Criterio de oportunidad</p>
-                          <p class="text-number" id="idCriterios">2</p>
-                        </div>
-                        <div class="format-parrafo">
-                          <p class="text-parrafo">Medios alternativos de <br> solución de controversias</p>
-                          <p class="text-number" id="idControversias">36</p>
-                        </div>
-                        <div class="format-parrafo">
-                          <p class="text-parrafo">Suspensión condicional <br> del proceso</p>
-                          <p class="text-number" id="idSuspencion">NR</p>
-                        </div>
-                        <div class="format-parrafo">
-                          <p class="text-parrafo">Procedimiento abreviado</p>
-                          <p class="text-number" id="idProcedimiento">NR</p>
-                        </div>
-                        <div class="format-parrafo">
-                          <p class="text-parrafo">Reparación del daño</p>
-                          <p class="text-number" id="idReparacion">NR</p>
-                        </div>
-                      </div>
-                      <div class="col-sm">
-                        <div class="row">
-                          <div class="col">
-                            <p class="text-parrafo-subtitulo">Resolución de carpetas que no combaten la corrupción</p>
-                            <div class="text-total-red">
-                              <p class="text-center">Total <span id="idTotalNoCombate">&nbsp;&nbsp;12%</span></p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="format-parrafo">
-                          <p class="text-parrafo">Archivo temporal</p>
-                          <p class="text-number" id="idArchivo">0</p>
-                        </div>
-                        <div class="format-parrafo">
-                          <p class="text-parrafo">No ejercicio de la acción penal</p>
-                          <p class="text-number" id="idAcccionPenal">450</p>
-                        </div>
-                        <div class="format-parrafo">
-                          <p class="text-parrafo">Facultad de abstenerse de investigar</p>
-                          <p class="text-number" id="idAbstenciones">147</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </row>
+        </form>
       </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Proceso de Investigación.</h5>
+              <div class="chart-container">
+                <canvas id="chartProcesoInv"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="card mb-3" style="height: 98px; padding-bottom: 1em;">
+                <div class="card-body">
+                  <h5 class="card-title">Presupuesto Otorgado.</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="card mb-3" style="height: 98px">
+                <div class="card-body">
+                  <h5 class="card-title">Monto recuperado.</h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <row class="row">
+        <div class="col-md-12">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title text-title">Resolución de carpetas de investigación</h5>
+              <div class="row">
+
+                <div class="col-md-4">
+                  <p class="text-parrafo-subtitulo">Carpetas en favor del combate a la corrupción.</p>
+                  <div class="format-parrafo">
+                    <p class="text-parrafo">Judicialización</p>
+                    <p class="text-number" id="idJudicialización">83</p>
+                  </div>
+                  <div class="format-parrafo">
+                    <p class="text-parrafo">Criterio de oportunidad</p>
+                    <p class="text-number" id="idCriterios">2</p>
+                  </div>
+                  <div class="format-parrafo">
+                    <p class="text-parrafo">Medios alternativos de <br> solución de controversias</p>
+                    <p class="text-number" id="idControversias">36</p>
+                  </div>
+                  <div class="format-parrafo">
+                    <p class="text-parrafo">Suspensión condicional <br> del proceso</p>
+                    <p class="text-number" id="idSuspencion">NR</p>
+                  </div>
+                  <div class="format-parrafo">
+                    <p class="text-parrafo">Procedimiento abreviado</p>
+                    <p class="text-number" id="idProcedimiento">NR</p>
+                  </div>
+                  <div class="format-parrafo">
+                    <p class="text-parrafo">Reparación del daño</p>
+                    <p class="text-number" id="idReparacion">NR</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <p class="text-parrafo-subtitulo">Porcentaje de resolución de carpetas.</p>
+
+                  <p class="text-parrafo-subtitulo">Resolución de carpetas en combate a corrupción</p>
+                  <div class="text-total-green">
+                    <p class="text-center">Total <span id="idTotalCombate">&nbsp;&nbsp;3%</span></p>
+                  </div>
+
+                  <p class="text-parrafo-subtitulo">Resolución de carpetas que no combaten la corrupción</p>
+                  <div class="text-total-red">
+                    <p class="text-center">Total <span id="idTotalNoCombate">&nbsp;&nbsp;12%</span></p>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <p class="text-parrafo-subtitulo">Carpetas que no combaten a la corrupción.</p>
+                  <div class="format-parrafo">
+                    <p class="text-parrafo">Archivo temporal</p>
+                    <p class="text-number" id="idArchivo">0</p>
+                  </div>
+                  <div class="format-parrafo">
+                    <p class="text-parrafo">No ejercicio de la acción penal</p>
+                    <p class="text-number" id="idAcccionPenal">450</p>
+                  </div>
+                  <div class="format-parrafo">
+                    <p class="text-parrafo">Facultad de abstenerse de investigar</p>
+                    <p class="text-number" id="idAbstenciones">147</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </row>
     </div>
   </div>
+
 </div>
 <br>
 <br>
