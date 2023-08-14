@@ -23,6 +23,7 @@ function select_estado(idEstado) {
   info_estado = this.estado_lista.find(x => x.Entidad === idEstado);
   //llama la funcion para cargar chart de  Proceso de Inv.
   chartProcesoInv();
+  pieChartResolucion();
 
   $("#idEntidad").text(info_estado.Entidad);
   $("#IdDenuncias").text(info_estado.Denuncias);
