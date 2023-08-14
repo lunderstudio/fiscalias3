@@ -1,5 +1,6 @@
 // Variable Global
 var estado_lista = [];
+var info_estado = {};
 
 $(document).ready(function () {
   //set initial Año 2022.
@@ -19,8 +20,9 @@ function añoSeleccionado(id_año){
 }
 
 function select_estado(idEstado) {
-  console.log(idEstado);
-  var info_estado = this.estado_lista.find(x => x.Entidad === idEstado)
+  info_estado = this.estado_lista.find(x => x.Entidad === idEstado);
+  //llama la funcion para cargar chart de  Proceso de Inv.
+  chartProcesoInv();
 
   $("#idEntidad").text(info_estado.Entidad);
   $("#IdDenuncias").text(info_estado.Denuncias);
