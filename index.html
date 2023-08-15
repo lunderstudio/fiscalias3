@@ -4,6 +4,7 @@
 <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
 <script src="https://cdn.amcharts.com/lib/4/geodata/mexicoLow.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
@@ -92,7 +93,7 @@
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title texto-card-monto" id="idPresupuesto"></h5>
-                      <p class="card-text text-card">Presupuesto Otorgado.</p>
+                      <p class="card-text text-card">Presupuesto otorgado</p>
                     </div>
                   </div>
                 </div>
@@ -110,7 +111,7 @@
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title texto-card-monto" id="idMonto"></h5>
-                      <p class="card-text text-card">Monto recuperado.</p>
+                      <p class="card-text text-card">Monto recuperado</p>
                     </div>
                   </div>
                 </div>
@@ -128,7 +129,7 @@
               <div class="row">
 
                 <div class="col-md-4">
-                  <p class="text-parrafo-subtitulo">Carpetas en favor del combate a la corrupción.</p>
+                  <p class="text-parrafo-subtitulo">Carpetas en favor del combate a la corrupción</p>
                   <div class="format-parrafo">
                     <p class="text-parrafo">Judicialización</p>
                     <p class="text-number" id="idJudicialización">83</p>
@@ -156,14 +157,14 @@
                 </div>
 
                 <div class="col-md-4">
-                  <p class="text-parrafo-subtitulo">Porcentaje de resolución de carpetas.</p>
+                  <p class="text-parrafo-subtitulo">Porcentaje de resolución de carpetas</p>
 
                   <canvas id="ChartResolucion"></canvas>
 
                 </div>
 
                 <div class="col-md-4">
-                  <p class="text-parrafo-subtitulo">Carpetas que no combaten a la corrupción.</p>
+                  <p class="text-parrafo-subtitulo">Carpetas que no combaten a la corrupción</p>
                   <div class="format-parrafo">
                     <p class="text-parrafo">Archivo temporal</p>
                     <p class="text-number" id="idArchivo">0</p>

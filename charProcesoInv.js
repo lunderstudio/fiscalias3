@@ -34,11 +34,15 @@ function chartProcesoInv() {
         },
         options: {
             plugins: {
+                
                 //formatea los tooltips de la grafica
                 tooltip: {
                     callbacks: {
                         title: (context) => {
                             return context[0].label.replaceAll(',', ' ');
+                        },
+                        formatter: (context) => {
+                            console.log(context);
                         }
                     },
                 },
@@ -64,6 +68,7 @@ function chartProcesoInv() {
                     }
                 }
             }
-        }
+        },
+        plugins: [ChartDataLabels],
     });
 }

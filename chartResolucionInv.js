@@ -3,7 +3,7 @@ let myPieChartResolution;
 function pieChartResolucion() {
 
     //Labels
-    var _sin_respuesta = 'Sin Respuesta.';
+    var _sin_respuesta = 'Carpetas en trámite.';
     var _cambate = 'Resolución de carpetas en combate a corrupción.';
     var _no_combate = 'Resolución de carpetas que no combaten la corrupción.';
 
