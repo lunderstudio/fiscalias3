@@ -17,6 +17,21 @@ function chartProcesoInv() {
     if (this.myLineChart)
         this.myLineChart.destroy();
 
+    // Datos de la grafica
+    const _datapoints = [info_estado.Denuncias, info_estado.Investigaciones, info_estado.Carpetas, info_estado.Imputaciones, info_estado.Vinculaciones, info_estado.Sentencias];
+    //Agrega los labels 
+    const multiBarLogo = {
+        id: 'multiBarLogo',
+        afterDatasetDraw(chart, args, options) {
+            const { ctx } = chart;
+            ctx.save();
+            for (let index = 0; index < _datapoints.length; index++) {
+                ctx.font = "12px Roboto bold";
+                ctx.fillText(_datapoints[index], chart.getDatasetMeta(0).data[index].x - (19.22 / 2), chart.getDatasetMeta(0).data[index].y - 25);
+            }
+        }
+    }
+
     //Crea de nuevo el Chart
     this.myLineChart = new Chart(grapharea, {
         type: 'line',
@@ -24,35 +39,34 @@ function chartProcesoInv() {
             labels: [_denuncias, _investigaciones, _carpetas, _imputaciones, _vinculaciones, _sentencias],
             datasets: [{
                 label: _entidad,
-                data: [info_estado.Denuncias, info_estado.Investigaciones, info_estado.Carpetas, info_estado.Imputaciones, info_estado.Vinculaciones, info_estado.Sentencias],
+                data: _datapoints,
                 backgroundColor: '#FCF3CF',
                 borderColor: '#F1C40F',
                 borderWidth: 2,
                 fill: true,
-                tension: 0.4
+                tension: 0.4,
             }]
         },
         options: {
             plugins: {
-                
                 //formatea los tooltips de la grafica
                 tooltip: {
                     callbacks: {
                         title: (context) => {
                             return context[0].label.replaceAll(',', ' ');
                         },
-                        formatter: (context) => {
-                            console.log(context);
-                        }
                     },
                 },
                 legend: {
+                    display: true,
                     labels: {
+                        color: 'white',
                         // This more specific font property overrides the global property
                         font: {
-                            size: 14
+                            size: 0,
                         },
-                    }
+                    },
+                    onClick: () => {},
                 }
             },
             scales: {
@@ -69,6 +83,6 @@ function chartProcesoInv() {
                 }
             }
         },
-        plugins: [ChartDataLabels],
+        plugins: [multiBarLogo]
     });
 }
