@@ -4,13 +4,13 @@ function pieChartResolucion() {
 
     //Labels
     var _sin_respuesta = 'Carpetas en trámite';
-    var _cambate = 'Resolución de carpetas en combate a corrupción';
-    var _no_combate = 'Resolución de carpetas que no combaten la corrupción';
+    var _cambate = 'Carpetas en favor del combate';
+    var _no_combate = 'Carpetas que no abonan al combate';
 
     //Color Pie
     var _combate_color = '#27AE60'; //green
     var _no_combate_color = '#E74C3C'; //red
-    var _sin_respuesta_color = '#FEF9E7'; //yellow
+    var _sin_respuesta_color = '#FCF3CF'; //yellow
 
     var _num_combate = Math.floor(info_estado.TotalCambate.replace("%", ""));
     var _num_no_combate = Math.floor(info_estado.TotalNoCombate.replace("%", ""));
@@ -35,5 +35,16 @@ function pieChartResolucion() {
                 hoverOffset: 4
             }]
         },
+        options: {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: (context) => {
+                            return context.formattedValue + '%';
+                        },
+                    },
+                }
+            }
+        }
     });
 }

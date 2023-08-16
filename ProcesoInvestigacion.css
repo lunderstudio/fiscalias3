@@ -19,23 +19,32 @@
     padding: 8px;
 }
 
-.texto-card{
+.texto-card {
     --framer-font-family: "Roboto";
     --framer-font-size: 14px;
     --framer-font-weight: 500;
     --framer-letter-spacing: 0.4px;
     --framer-text-color: rgba(94, 101, 110, 1);
 }
-.texto-card-monto{
+
+.texto-card-monto {
     --framer-font-family: "Fira Sans";
     --framer-font-size: 20px;
     --framer-font-weight: 600;
     --framer-letter-spacing: 0px;
 }
 
-.img-card-presupuestos-montos{
+.img-card-presupuestos-montos {
     text-align: center;
     display: block;
     margin: auto;
 }
 
+
+.title-card-text {
+    --framer-font-family: "Roboto";
+    --framer-font-size: 18px;
+    --framer-font-weight: 700;
+    --framer-letter-spacing: 0px;
+    --framer-text-color: rgba(0, 2, 24, 1);
+}
