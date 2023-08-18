@@ -20,7 +20,6 @@ function chartProcesoInv() {
     // Datos de la grafica
     var _datapoints = [info_estado.Denuncias, info_estado.Investigaciones, info_estado.Carpetas, info_estado.Imputaciones, info_estado.Vinculaciones, info_estado.Sentencias];
     _datapoints = _datapoints.map(function(dato){
-        console.log(dato);
         if(dato === 'NR'){
           dato = -1;
         }

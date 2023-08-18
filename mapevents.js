@@ -12,6 +12,10 @@ function init() {
   var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
   var polygonTemplate = polygonSeries.mapPolygons.template;
   polygonTemplate.tooltipText = "{name}:  \n \t {value.value.formatNumber('#')}/12";
+  // polygonTemplate.adapter.add("tooltipText", function(text, target) {
+  //   console.log(target.dataItem.value);
+  //   return  "Armando";
+  // });
   polygonSeries.heatRules.push({
     property: "fill",
     target: polygonSeries.mapPolygons.template,
