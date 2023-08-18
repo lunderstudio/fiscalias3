@@ -69,12 +69,11 @@ function chartProcesoInv() {
                 legend: {
                     display: true,
                     labels: {
-                        color: 'black',
+                        color: 'white',
                         // This more specific font property overrides the global property
                         font: {
-                            size: 14,
+                            size: 0,
                         },
-                        // text: 'Armando'
                     },
                     onClick: () => { },
                 }
