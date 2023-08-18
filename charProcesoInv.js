@@ -18,15 +18,14 @@ function chartProcesoInv() {
         this.myLineChart.destroy();
 
     // Datos de la grafica
-    const _datapoints = [info_estado.Denuncias, info_estado.Investigaciones, info_estado.Carpetas, info_estado.Imputaciones, info_estado.Vinculaciones, info_estado.Sentencias];
-    // _datapoints = _datapoints.map(function(dato){
-    //     console.log(dato);
-    //     if(dato === 'NR'){
-    //       dato = -1;
-    //     }
-
-    //     return dato;
-    //   });
+    var _datapoints = [info_estado.Denuncias, info_estado.Investigaciones, info_estado.Carpetas, info_estado.Imputaciones, info_estado.Vinculaciones, info_estado.Sentencias];
+    _datapoints = _datapoints.map(function(dato){
+        console.log(dato);
+        if(dato === 'NR'){
+          dato = -1;
+        }
+        return dato;
+      });
 
     //Agrega los labels 
     const multiBarLogo = {
@@ -70,11 +69,12 @@ function chartProcesoInv() {
                 legend: {
                     display: true,
                     labels: {
-                        color: 'white',
+                        color: 'black',
                         // This more specific font property overrides the global property
                         font: {
-                            size: 0,
+                            size: 14,
                         },
+                        // text: 'Armando'
                     },
                     onClick: () => { },
                 }
@@ -83,7 +83,8 @@ function chartProcesoInv() {
                 x: {
                     ticks: {
                         align: 'center',
-                        beginAtZero: true
+                        beginAtZero: true,
+                        gace: '5%'
                     }
                 },
                 y: {
