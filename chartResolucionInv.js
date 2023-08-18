@@ -36,6 +36,7 @@ function pieChartResolucion() {
             }]
         },
         options: {
+            responsive: true,
             plugins: {
                 tooltip: {
                     callbacks: {

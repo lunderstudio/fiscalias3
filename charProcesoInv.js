@@ -19,6 +19,15 @@ function chartProcesoInv() {
 
     // Datos de la grafica
     const _datapoints = [info_estado.Denuncias, info_estado.Investigaciones, info_estado.Carpetas, info_estado.Imputaciones, info_estado.Vinculaciones, info_estado.Sentencias];
+    // _datapoints = _datapoints.map(function(dato){
+    //     console.log(dato);
+    //     if(dato === 'NR'){
+    //       dato = -1;
+    //     }
+
+    //     return dato;
+    //   });
+
     //Agrega los labels 
     const multiBarLogo = {
         id: 'multiBarLogo',
@@ -27,7 +36,7 @@ function chartProcesoInv() {
             ctx.save();
             for (let index = 0; index < _datapoints.length; index++) {
                 ctx.font = "12px Roboto bold";
-                ctx.fillText(_datapoints[index], chart.getDatasetMeta(0).data[index].x - (19.22 / 2), chart.getDatasetMeta(0).data[index].y - 25);
+                ctx.fillText(_datapoints[index], chart.getDatasetMeta(0).data[index].x - (19.22 / 2), chart.getDatasetMeta(0).data[index].y - 9);
             }
         }
     }
@@ -48,8 +57,9 @@ function chartProcesoInv() {
             }]
         },
         options: {
+            responsive: true,
             plugins: {
-                //formatea los tooltips de la grafica
+                // formatea los tooltips de la grafica
                 tooltip: {
                     callbacks: {
                         title: (context) => {
@@ -66,17 +76,23 @@ function chartProcesoInv() {
                             size: 0,
                         },
                     },
-                    onClick: () => {},
+                    onClick: () => { },
                 }
             },
             scales: {
                 x: {
-                    align: 'center',
+                    ticks: {
+                        align: 'center',
+                        beginAtZero: true
+                    }
                 },
                 y: {
                     //Quita los dlabels del eje x
-                    display: false,
-                    beginAtZero: true,
+                    display: true,
+                    ticks: {
+                        color: 'white',
+                        beginAtZero: true,
+                    },
                     grid: {
                         display: false
                     }

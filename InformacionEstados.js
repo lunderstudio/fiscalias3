@@ -814,7 +814,7 @@ datos_estados = {
             "Abstenciones": "4",
             "TotalNoCombate": "38%",
             "Presupuesto": "$11,364,105.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Chiapas",
@@ -924,7 +924,7 @@ datos_estados = {
             "Abstenciones": "8",
             "TotalNoCombate": "6%",
             "Presupuesto": "$3,648,442.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Durango",
@@ -946,7 +946,7 @@ datos_estados = {
             "Abstenciones": "3",
             "TotalNoCombate": "8%",
             "Presupuesto": "$22,727,278.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Federal",
@@ -1012,7 +1012,7 @@ datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "10%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Hidalgo",
@@ -1034,7 +1034,7 @@ datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "60%",
             "Presupuesto": "$10,475,959.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Jalisco",
@@ -1056,7 +1056,7 @@ datos_estados = {
             "Abstenciones": "408",
             "TotalNoCombate": "66%",
             "Presupuesto": "$66,220,466.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "México",
@@ -1166,7 +1166,7 @@ datos_estados = {
             "Abstenciones": "3",
             "TotalNoCombate": "54%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Oaxaca",
@@ -1210,7 +1210,7 @@ datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "59%",
             "Presupuesto": "$29,959,794.65 ",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Querétaro",
@@ -1232,7 +1232,7 @@ datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "24%",
             "Presupuesto": "$15,944,242.60",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Quintana Roo",
@@ -1276,7 +1276,7 @@ datos_estados = {
             "Abstenciones": "6",
             "TotalNoCombate": "63%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Sinaloa",
@@ -1298,7 +1298,7 @@ datos_estados = {
             "Abstenciones": "4",
             "TotalNoCombate": "38%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Sonora",
@@ -1320,7 +1320,7 @@ datos_estados = {
             "Abstenciones": "1",
             "TotalNoCombate": "37%",
             "Presupuesto": "$69,242,502.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Tabasco",
@@ -1342,7 +1342,7 @@ datos_estados = {
             "Abstenciones": "1",
             "TotalNoCombate": "2%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Tamaulipas",
@@ -1364,7 +1364,7 @@ datos_estados = {
             "Abstenciones": "18",
             "TotalNoCombate": "36%",
             "Presupuesto": "$2,777,455.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Tlaxcala",
@@ -1386,7 +1386,7 @@ datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "8%",
             "Presupuesto": "$10,441,710.43 ",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Veracruz",
@@ -1430,7 +1430,7 @@ datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "57%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Zacatecas",
@@ -1452,7 +1452,7 @@ datos_estados = {
             "Abstenciones": "68",
             "TotalNoCombate": "54%",
             "Presupuesto": "$7,502,893.49 ",
-            "Montos": "$-"
+            "Montos": "$0.00"
         }
     ],
     "2021": [
@@ -1586,7 +1586,7 @@ datos_estados = {
             "Abstenciones": "1",
             "TotalNoCombate": "74%",
             "Presupuesto": "$54,863,400.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Ciudad de México",
@@ -1652,7 +1652,7 @@ datos_estados = {
             "Abstenciones": "8",
             "TotalNoCombate": "4%",
             "Presupuesto": "$3,648,442.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Durango",
@@ -1740,7 +1740,7 @@ datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "50%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Hidalgo",
@@ -1784,7 +1784,7 @@ datos_estados = {
             "Abstenciones": "313",
             "TotalNoCombate": "49%",
             "Presupuesto": "$60,916,049.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "México",
@@ -1894,7 +1894,7 @@ datos_estados = {
             "Abstenciones": "19",
             "TotalNoCombate": "37%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Oaxaca",
@@ -1938,7 +1938,7 @@ datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "31%",
             "Presupuesto": "$29,131,466.82 ",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Querétaro",
@@ -2004,7 +2004,7 @@ datos_estados = {
             "Abstenciones": "2",
             "TotalNoCombate": "20%",
             "Presupuesto": "$5,071,058.42 ",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Sinaloa",
@@ -2048,7 +2048,7 @@ datos_estados = {
             "Abstenciones": "11",
             "TotalNoCombate": "29%",
             "Presupuesto": "$56,765,156.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Tabasco",
@@ -2070,7 +2070,7 @@ datos_estados = {
             "Abstenciones": "2",
             "TotalNoCombate": "4%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Tamaulipas",
@@ -2092,7 +2092,7 @@ datos_estados = {
             "Abstenciones": "12",
             "TotalNoCombate": "15%",
             "Presupuesto": "$5,979,640.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Tlaxcala",
@@ -2114,7 +2114,7 @@ datos_estados = {
             "Abstenciones": "8",
             "TotalNoCombate": "5%",
             "Presupuesto": "$10,466,939.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Veracruz",
@@ -2158,7 +2158,7 @@ datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "78%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Zacatecas",
@@ -2180,7 +2180,7 @@ datos_estados = {
             "Abstenciones": "43",
             "TotalNoCombate": "31%",
             "Presupuesto": "$9,144,388.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         }
     ],
     "2022": [
@@ -2270,7 +2270,7 @@ datos_estados = {
             "Abstenciones": "7",
             "TotalNoCombate": "27%",
             "Presupuesto": "$11,312,659.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Chiapas",
@@ -2468,7 +2468,7 @@ datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "12%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Hidalgo",
@@ -2578,7 +2578,7 @@ datos_estados = {
             "Abstenciones": "5",
             "TotalNoCombate": "8%",
             "Presupuesto": "$36,928,984.40",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Nayarit",
@@ -2622,7 +2622,7 @@ datos_estados = {
             "Abstenciones": "56",
             "TotalNoCombate": "38%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Oaxaca",
@@ -2644,7 +2644,7 @@ datos_estados = {
             "Abstenciones": "9",
             "TotalNoCombate": "10%",
             "Presupuesto": "$19,774,731.60",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Puebla",
@@ -2754,7 +2754,7 @@ datos_estados = {
             "Abstenciones": "1",
             "TotalNoCombate": "25%",
             "Presupuesto": "NR",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Sonora",
@@ -2864,7 +2864,7 @@ datos_estados = {
             "Abstenciones": "33",
             "TotalNoCombate": "8%",
             "Presupuesto": "$5,581,282.00",
-            "Montos": "$-"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Yucatán",
