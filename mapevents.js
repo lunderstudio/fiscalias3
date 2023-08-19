@@ -13,7 +13,7 @@ function init() {
   var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
   var polygonTemplate = polygonSeries.mapPolygons.template;
   polygonTemplate.tooltipText = "{name}:  \n \t {value.value.formatNumber('#')}/12";
-  polygonTemplate.tooltipHTML = `<div style="font-size: 12px; padding-bottom: 0;">
+  polygonTemplate.tooltipHTML = `<div style="font-size: 12px; font-family: "Roboto"; padding-bottom: 0;">
   <p style="margin-bottom: 5px;"><strong>{name}</p>
   <small>Resultado {Resultados}</small>
   <p style="margin-bottom: 5px;"><strong style="color:blue">{value.value.formatNumber('#')}/12</strong><small> Indicadores de autonomia</small></p>
@@ -34,17 +34,16 @@ function init() {
   chart.seriesContainer.events.disableType("doublehit");
   chart.chartContainer.background.events.disableType("doublehit");
   // add heat legend 
-  var heatLegend = chart.chartContainer.createChild(am4maps.HeatLegend);
+  var legendContainer = am4core.create("legenddiv", am4core.Container);
+  legendContainer.width = am4core.percent(100);
+  // add heat legend
+  var heatLegend = legendContainer.createChild(am4maps.HeatLegend);
   heatLegend.valign = "bottom";
   heatLegend.align = "center";
   heatLegend.width = am4core.percent(75);
   heatLegend.series = polygonSeries;
   heatLegend.orientation = "horizontal";
-  heatLegend.padding(20, 20, 20, 20);
   heatLegend.valueAxis.renderer.labels.template.fontSize = 10;
-  heatLegend.valueAxis.renderer.minGridDistance = 40;
-
-
   polygonSeries.mapPolygons.template.events.on("over", event => {
     handleHover(event.target);
   });
