@@ -1,3 +1,4 @@
+
 function init() {
   am4core.useTheme(am4themes_animated);
 
@@ -12,10 +13,14 @@ function init() {
   var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
   var polygonTemplate = polygonSeries.mapPolygons.template;
   polygonTemplate.tooltipText = "{name}:  \n \t {value.value.formatNumber('#')}/12";
-  // polygonTemplate.adapter.add("tooltipText", function(text, target) {
-  //   console.log(target.dataItem.value);
-  //   return  "Armando";
-  // });
+  polygonTemplate.tooltipHTML = `<div style="font-size: 12px; padding-bottom: 0;">
+  <p style="margin-bottom: 5px;"><strong>{name}</p>
+  <small>Resultado {Resultados}</small>
+  <p style="margin-bottom: 5px;"><strong style="color:blue">{value.value.formatNumber('#')}/12</strong><small> Indicadores de autonomia</small></p>
+  <p style="margin-bottom: 5px;"><strong style="color:#27AE60">{CombateCorrupción}</strong><small> Resolución de carpetas en favor <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;del combate a la corrupción</small></p>
+  <p style="margin-bottom: 5px;"><strong style="color:#E74C3C">{NoCombateCorrupción}</strong><small> Resolución de carpetas que no <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;combaten a la corrupción</small></p>
+  <p style="margin-bottom: 5px;"><strong>{Monto}</strong><small> Monto recuperado</small></p>
+</div>`;
   polygonSeries.heatRules.push({
     property: "fill",
     target: polygonSeries.mapPolygons.template,
@@ -63,137 +68,7 @@ function init() {
     heatLegend.valueAxis.hideTooltip();
   });
   // data 
-  polygonSeries.data = [
-    {
-      id: "MX-ZAC",
-      value: 7
-    },
-    {
-      id: "MX-YUC",
-      value: 7
-    },
-    {
-      id: "MX-VER",
-      value: 10
-    },
-    {
-      id: "MX-TLA",
-      value: 9
-    },
-    {
-      id: "MX-TAM",
-      value: 10
-    },
-    {
-      id: "MX-TAB",
-      value: 6
-    },
-    {
-      id: "MX-SON",
-      value: 8
-    },
-    {
-      id: "MX-SIN",
-      value: 9
-    },
-    {
-      id: "MX-SLP",
-      value: 6
-    },
-    {
-      id: "MX-ROO",
-      value: 8
-    },
-    {
-      id: "MX-QUE",
-      value: 8
-    },
-    {
-      id: "MX-PUE",
-      value: 9
-    },
-    {
-      id: "MX-OAX",
-      value: 2
-    },
-    {
-      id: "MX-NLE",
-      value: 10
-    },
-    {
-      id: "MX-NAY",
-      value: 2
-    },
-    {
-      id: "MX-MOR",
-      value: 3
-    },
-    {
-      id: "MX-MIC",
-      value: 9
-    },
-    {
-      id: "MX-MEX",
-      value: 6
-    },
-    {
-      id: "MX-JAL",
-      value: 10
-    },
-    {
-      id: "MX-HID",
-      value: 8
-    },
-    {
-      id: "MX-GRO",
-      value: 8
-    },
-    {
-      id: "MX-GUA",
-      value: 9
-    },
-    {
-      id: "MX-DUR",
-      value: 10
-    },
-    {
-      id: "MX-CMX",
-      value: 7
-    },
-    {
-      id: "MX-COL",
-      value: 8
-    },
-    {
-      id: "MX-COA",
-      value: 11
-    },
-    {
-      id: "MX-CHH",
-      value: 11
-    },
-    {
-      id: "MX-CHP",
-      value: 1
-    },
-    {
-      id: "MX-CAM",
-      value: 9
-    },
-    {
-      id: "MX-BCS",
-      value: "NA"
-    },
-    {
-      id: "MX-BCN",
-      value: "NA"
-    },
-    {
-      id: "MX-AGU",
-      value: 11
-    }
-  ];
-
+  polygonSeries.data = datos_tootltip_22;
 }
 
 init();
