@@ -5,7 +5,7 @@ const datos_tootltip_22 = [
         Entidad: "Aguascalientes",
         Resultados: "2022",
         Monto: "$314,242.50",
-        CombateCorrupción: "3%",
+        CombateCorrupción: "4%",
         NoCombateCorrupción: "6%"
     },
     {
@@ -32,7 +32,7 @@ const datos_tootltip_22 = [
         Entidad: "Campeche",
         Resultados: "2022",
         Monto: "$0.00",
-        CombateCorrupción: "15%",
+        CombateCorrupción: "12%",
         NoCombateCorrupción: "27%"
     },
     {
@@ -41,7 +41,7 @@ const datos_tootltip_22 = [
         Entidad: "Chiapas",
         Resultados: "2022",
         Monto: "NR",
-        CombateCorrupción: "NR",
+        CombateCorrupción: "23%",
         NoCombateCorrupción: "32%"
     },
     {
@@ -50,7 +50,7 @@ const datos_tootltip_22 = [
         Entidad: "Chihuahua",
         Resultados: "2022",
         Monto: "$2,828,556.08",
-        CombateCorrupción: "63%",
+        CombateCorrupción: "50%",
         NoCombateCorrupción: "30%"
     },
     {
@@ -59,7 +59,7 @@ const datos_tootltip_22 = [
         Entidad: "Ciudad de México",
         Resultados: "2022",
         Monto: "NR",
-        CombateCorrupción: "5%",
+        CombateCorrupción: "9%",
         NoCombateCorrupción: "88%"
     },
     {
@@ -68,7 +68,7 @@ const datos_tootltip_22 = [
         Entidad: "Coahuila",
         Resultados: "2022",
         Monto: "$3,085,822.00",
-        CombateCorrupción: "36%",
+        CombateCorrupción: "11%",
         NoCombateCorrupción: "21%"
     },
     {
@@ -77,7 +77,7 @@ const datos_tootltip_22 = [
         Entidad: "Colima",
         Resultados: "2022",
         Monto: "NR",
-        CombateCorrupción: "2%",
+        CombateCorrupción: "NR",
         NoCombateCorrupción: "NR"
     },
     {
@@ -86,7 +86,7 @@ const datos_tootltip_22 = [
         Entidad: "Durango",
         Resultados: "2022",
         Monto: "$120,000.00",
-        CombateCorrupción: "9%",
+        CombateCorrupción: "51%",
         NoCombateCorrupción: "41%"
     },
     {
@@ -113,7 +113,7 @@ const datos_tootltip_22 = [
         Entidad: "Hidalgo",
         Resultados: "2022",
         Monto: "NR",
-        CombateCorrupción: "5%",
+        CombateCorrupción: "NR",
         NoCombateCorrupción: "NR"
     },
     {
@@ -122,7 +122,7 @@ const datos_tootltip_22 = [
         Entidad: "Jalisco",
         Resultados: "2022",
         Monto: "$1,076,071.40",
-        CombateCorrupción: "11%",
+        CombateCorrupción: "7%",
         NoCombateCorrupción: "45%"
     },
     {
@@ -131,7 +131,7 @@ const datos_tootltip_22 = [
         Entidad: "México",
         Resultados: "2022",
         Monto: "NR",
-        CombateCorrupción: "5%",
+        CombateCorrupción: "1%",
         NoCombateCorrupción: "9%"
     },
     {
@@ -140,7 +140,7 @@ const datos_tootltip_22 = [
         Entidad: "Michoacán",
         Resultados: "2022",
         Monto: "$2,149,923.97",
-        CombateCorrupción: "26%",
+        CombateCorrupción: "10%",
         NoCombateCorrupción: "97%"
     },
     {
@@ -149,7 +149,7 @@ const datos_tootltip_22 = [
         Entidad: "Morelos",
         Resultados: "2022",
         Monto: "$0.00",
-        CombateCorrupción: "NR",
+        CombateCorrupción: "16%",
         NoCombateCorrupción: "8%"
     },
     {
@@ -167,7 +167,7 @@ const datos_tootltip_22 = [
         Entidad: "Nuevo León",
         Resultados: "2022",
         Monto: "$0.00",
-        CombateCorrupción: "2%",
+        CombateCorrupción: "6%",
         NoCombateCorrupción: "38%"
     },
     {
@@ -176,7 +176,7 @@ const datos_tootltip_22 = [
         Entidad: "Oaxaca",
         Resultados: "2022",
         Monto: "$0.00",
-        CombateCorrupción: "NR",
+        CombateCorrupción: "3%",
         NoCombateCorrupción: "10%"
     },
     {
@@ -185,7 +185,7 @@ const datos_tootltip_22 = [
         Entidad: "Puebla",
         Resultados: "2022",
         Monto: "$20,568.00",
-        CombateCorrupción: "5%",
+        CombateCorrupción: "10%",
         NoCombateCorrupción: "54%"
     },
     {
@@ -194,16 +194,16 @@ const datos_tootltip_22 = [
         Entidad: "Querétaro",
         Resultados: "2022",
         Monto: "$3,261,223.07",
-        CombateCorrupción: "72%",
+        CombateCorrupción: "12%",
         NoCombateCorrupción: "22%"
     },
     {
         id: "MX-ROO",
-        value: 10,
+        value: 12,
         Entidad: "Quintana Roo",
         Resultados: "2022",
         Monto: "$163,078,161.73",
-        CombateCorrupción: "46%",
+        CombateCorrupción: "71%",
         NoCombateCorrupción: "69%"
     },
     {
@@ -212,7 +212,7 @@ const datos_tootltip_22 = [
         Entidad: "San Luis Potosí",
         Resultados: "2022",
         Monto: "NR",
-        CombateCorrupción: "7%",
+        CombateCorrupción: "NR",
         NoCombateCorrupción: "NR"
     },
     {
@@ -221,7 +221,7 @@ const datos_tootltip_22 = [
         Entidad: "Sinaloa",
         Resultados: "2022",
         Monto: "$0.00",
-        CombateCorrupción: "23%",
+        CombateCorrupción: "19%",
         NoCombateCorrupción: "25%"
     },
     {
@@ -230,7 +230,7 @@ const datos_tootltip_22 = [
         Entidad: "Sonora",
         Resultados: "2022",
         Monto: "$4,762,580.76",
-        CombateCorrupción: "5%",
+        CombateCorrupción: "13%",
         NoCombateCorrupción: "9%"
     },
     {
@@ -239,7 +239,7 @@ const datos_tootltip_22 = [
         Entidad: "Tabasco",
         Resultados: "2022",
         Monto: "NR",
-        CombateCorrupción: "15%",
+        CombateCorrupción: "9%",
         NoCombateCorrupción: "0%"
     },
     {
@@ -248,7 +248,7 @@ const datos_tootltip_22 = [
         Entidad: "Tamaulipas",
         Resultados: "2022",
         Monto: "NR",
-        CombateCorrupción: "3%",
+        CombateCorrupción: "9%",
         NoCombateCorrupción: "47%"
     },
     {
@@ -257,7 +257,7 @@ const datos_tootltip_22 = [
         Entidad: "Tlaxcala",
         Resultados: "2022",
         Monto: "NR",
-        CombateCorrupción: "22%",
+        CombateCorrupción: "NR",
         NoCombateCorrupción: "NR"
     },
     {
@@ -266,7 +266,7 @@ const datos_tootltip_22 = [
         Entidad: "Veracruz",
         Resultados: "2022",
         Monto: "$0.00",
-        CombateCorrupción: "NR",
+        CombateCorrupción: "1%",
         NoCombateCorrupción: "8%"
     },
     {
@@ -275,7 +275,7 @@ const datos_tootltip_22 = [
         Entidad: "Yucatán",
         Resultados: "2022",
         Monto: "$189,166.66",
-        CombateCorrupción: "13%",
+        CombateCorrupción: "36%",
         NoCombateCorrupción: "149%"
     },
     {
@@ -284,7 +284,7 @@ const datos_tootltip_22 = [
         Entidad: "Zacatecas",
         Resultados: "2022",
         Monto: "$1,746,000.00",
-        CombateCorrupción: "9%",
+        CombateCorrupción: "7%",
         NoCombateCorrupción: "73%"
     }
 ];
