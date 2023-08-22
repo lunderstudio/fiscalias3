@@ -19,26 +19,24 @@
 <div id="mapasvg">
   <div id="chartdiv"></div>
   <div id="icon-federal" onclick="select_estado('Federal')" class="tooltip">
-    <span class="tooltiptext">Federal: <br> 10/12</span>
-    <svg width="50" height="42" viewBox="0 0 50 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="6.06689" y="14.9805" width="6.96497" height="23.2806" fill="#FFE2A2" />
-      <rect x="16.6249" y="14.9805" width="6.96497" height="23.2806" fill="#FFE2A2" />
-      <rect x="27.1925" y="14.9805" width="6.96497" height="23.2806" fill="#FFE2A2" />
-      <rect x="37.7456" y="14.9805" width="6.96497" height="23.2806" fill="#FFE2A2" />
-      <rect x="1.02026" y="11.2314" width="48.7549" height="3.74443" fill="#FFE2A2" />
-      <rect x="6.06689" y="17" width="2.53272" height="20.0246" fill="#FFB100" />
-      <rect x="27.1925" y="17" width="2.53272" height="20.0246" fill="#FFB100" />
-      <rect x="16.6249" y="17" width="2.53272" height="20.0246" fill="#FFB100" />
-      <rect x="37.7456" y="17" width="2.53272" height="20.0246" fill="#FFB100" />
-      <rect x="10.7285" y="17" width="2.53272" height="20.0246" fill="#FFB100" />
-      <rect x="31.6215" y="17" width="2.53272" height="20.0246" fill="#FFB100" />
-      <rect x="21.061" y="17" width="2.53272" height="20.0246" fill="#FFB100" />
-      <rect x="42.177" y="17" width="2.53272" height="20.0246" fill="#FFB100" />
-      <rect x="1.02026" y="38.2559" width="48.7549" height="3.74443" fill="#FFE2A2" />
-      <path fill-rule="evenodd" clip-rule="evenodd"
-        d="M49.9719 11.2333L25.3876 0L0.803223 11.2333H49.9719ZM25.3769 8.6257C26.4884 8.6257 27.3894 7.71459 27.3894 6.59068C27.3894 5.46677 26.4884 4.55566 25.3769 4.55566C24.2654 4.55566 23.3644 5.46677 23.3644 6.59068C23.3644 7.71459 24.2654 8.6257 25.3769 8.6257Z"
-        fill="#513800" />
-    </svg>
+    <!-- <span class="">Federal: <br> 10/12</span> -->
+    <div style="font-size: 12px; font-family: Roboto; padding-bottom: 0;" class="tooltiptext">
+      
+      <div style="margin: 10px;">
+        <p style="margin-bottom: 5px;"><strong>Federal</p>
+        <small>Resultado 2022</small>
+        <p style="margin-bottom: 5px;"><strong style="color:blue">10/12</strong><small>
+            Indicadores de autonomia</small></p>
+        <p style="margin-bottom: 5px;"><strong style="color:#27AE60">9%</strong><small> Resolución de
+            carpetas en favor <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;del combate a la
+            corrupción</small></p>
+        <p style="margin-bottom: 5px;"><strong style="color:#E74C3C">73%</strong><small> Resolución de
+            carpetas que no <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;combaten a la
+            corrupción</small></p>
+        <p style="margin-bottom: 5px;"><strong>NR</strong><small> Monto recuperado</small></p>
+      </div>
+    </div>
+    <img width="50" height="42" src="Building.png" />
     <p class="text-parrafo-federal">Federal </p>
   </div>
 </div>
@@ -137,7 +135,8 @@
               <div class="row">
 
                 <div class="col-md-4">
-                  <p class="text-parrafo-subtitulo" style="color: #27AE60;">Carpetas en favor del combate a la corrupción</p>
+                  <p class="text-parrafo-subtitulo" style="color: #27AE60;">Carpetas en favor del combate a la
+                    corrupción</p>
                   <div class="format-parrafo">
                     <p class="text-parrafo">Judicialización</p>
                     <p class="text-number" id="idJudicialización">83</p>

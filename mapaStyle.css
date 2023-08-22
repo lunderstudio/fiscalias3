@@ -110,10 +110,10 @@ body {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 190px;
   background-color: #F2C96B;
   color: black;
-  text-align: center;
+  text-align: left;
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
@@ -130,7 +130,7 @@ body {
   content: "";
   position: absolute;
   top: 100%;
-  left: 50%;
+  left: 20%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
