@@ -49,11 +49,16 @@
     margin: auto;
 }
 
-
 .title-card-text {
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0px;
     color: rgba(0, 2, 24, 1);
+}
+
+.btn-group-años {
+    width: 95px !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
 }
