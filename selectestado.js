@@ -3,6 +3,8 @@ var estado_lista = [];
 var info_estado = {};
 
 $(document).ready(function () {
+  //Remueve el estado y el año seleccionado
+  localStorage.removeItem("_estado") ?? localStorage.removeItem("_estado");
   //set initial Año 2022.
   var año_seleccionado = $('input[name=años]:checked', '#radio_box_años').val();
   añoSeleccionado(año_seleccionado);
@@ -16,10 +18,12 @@ $(document).ready(function () {
 function añoSeleccionado(id_año){
   this.estado_lista = datos_estados[id_año];
   //Cuando se cambia de año se regresa al estado federal.
-  select_estado("Federal");
+  const _estado = localStorage.getItem("_estado");
+  select_estado(_estado ? _estado : 'Federal');
 }
 
 function select_estado(idEstado) {
+  localStorage.setItem("_estado", idEstado);
   info_estado = this.estado_lista.find(x => x.Entidad === idEstado);
   //llama la funcion para cargar chart de  Proceso de Inv.
   chartProcesoInv();
