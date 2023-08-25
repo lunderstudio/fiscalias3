@@ -2854,7 +2854,7 @@ datos_estados = {
             "Sentencias": "0",
             "Judicialización": "8",
             "Criterio": "0",
-            "Controversias": "AR",
+            "Controversias": "NA",
             "Suspensiónes": "0",
             "Procedimiento": "0",
             "Reparaciónes": "0",
