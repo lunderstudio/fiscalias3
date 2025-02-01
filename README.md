@@ -220,7 +220,7 @@ El archivo `mapevent.js` contiene una función que inicializa un mapa interactiv
     ```
     - Se asignan los datos que serán visualizados en el mapa.
 
-## Explicación del Código de `mapevent.js`
+## Explicación del Código de `selectestado.js`
 
 El archivo `mapevent.js` se encarga de manejar la selección del estado y el año, así como de actualizar la información y los gráficos en la interfaz de usuario basada en la selección.
 
