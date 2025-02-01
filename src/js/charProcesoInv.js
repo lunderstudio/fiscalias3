@@ -1,52 +1,61 @@
-//Variable global Chart Object
+// Variable global Chart Object
 let myLineChart;
+
 function chartProcesoInv() {
     // LABELS
-    var _entidad = info_estado.Entidad;
-    var _denuncias = ['Denuncias', 'recibidas'];
-    var _investigaciones = ['Investigaciones de', ' oficio inicadas'];
-    var _carpetas = ['Carpetas de', 'Investigación', 'abiertas'];
-    var _imputaciones = ['Formaularios de', 'imputaciones'];
-    var _vinculaciones = ['Vinculaciones a', 'proceso'];
-    var _sentencias = ['Sentencias', 'condenatorias'];
+    const labels = {
+        entidad: info_estado.Entidad,
+        denuncias: ['Denuncias', 'recibidas'],
+        investigaciones: ['Investigaciones de', 'oficio inicadas'],
+        carpetas: ['Carpetas de', 'Investigación', 'abiertas'],
+        imputaciones: ['Formaularios de', 'imputaciones'],
+        vinculaciones: ['Vinculaciones a', 'proceso'],
+        sentencias: ['Sentencias', 'condenatorias'],
+    };
 
-    //Configuracion Char Proceso de Investigacion
-    var grapharea = document.getElementById("chartProcesoInv");
+    const graphArea = document.getElementById("chartProcesoInv");
 
-    //Si la chart existe la destruye antes de volverlo a usar.
-    if (this.myLineChart)
-        this.myLineChart.destroy();
+    // Destroy the chart if it exists
+    if (myLineChart) myLineChart.destroy();
 
-    // Datos de la grafica
-    var _datapoints = [info_estado.Denuncias, info_estado.Investigaciones, info_estado.Carpetas, info_estado.Imputaciones, info_estado.Vinculaciones, info_estado.Sentencias];
-    _datapoints = _datapoints.map(function(dato){
-        if(dato === 'NR'){
-          dato = -1;
-        }
-        return dato;
-      });
+    // Data points
+    const dataPoints = [
+        info_estado.Denuncias,
+        info_estado.Investigaciones,
+        info_estado.Carpetas,
+        info_estado.Imputaciones,
+        info_estado.Vinculaciones,
+        info_estado.Sentencias
+    ].map(dato => dato === 'NR' ? -1 : dato);
 
-    //Agrega los labels 
+    // Custom plugin to add labels
     const multiBarLogo = {
         id: 'multiBarLogo',
-        afterDatasetDraw(chart, args, options) {
+        afterDatasetDraw(chart) {
             const { ctx } = chart;
             ctx.save();
-            for (let index = 0; index < _datapoints.length; index++) {
+            chart.getDatasetMeta(0).data.forEach((dataPoint, index) => {
                 ctx.font = "12px Roboto bold";
-                ctx.fillText(_datapoints[index], chart.getDatasetMeta(0).data[index].x - (19.22 / 2), chart.getDatasetMeta(0).data[index].y - 9);
-            }
+                ctx.fillText(dataPoints[index], dataPoint.x - 19.22 / 2, dataPoint.y - 9);
+            });
         }
-    }
+    };
 
-    //Crea de nuevo el Chart
-    this.myLineChart = new Chart(grapharea, {
+    // Create the chart
+    myLineChart = new Chart(graphArea, {
         type: 'line',
         data: {
-            labels: [_denuncias, _investigaciones, _carpetas, _imputaciones, _vinculaciones, _sentencias],
+            labels: [
+                labels.denuncias,
+                labels.investigaciones,
+                labels.carpetas,
+                labels.imputaciones,
+                labels.vinculaciones,
+                labels.sentencias
+            ],
             datasets: [{
-                label: _entidad,
-                data: _datapoints,
+                label: labels.entidad,
+                data: dataPoints,
                 backgroundColor: '#FCF3CF',
                 borderColor: '#F1C40F',
                 borderWidth: 2,
@@ -57,19 +66,15 @@ function chartProcesoInv() {
         options: {
             responsive: true,
             plugins: {
-                // formatea los tooltips de la grafica
                 tooltip: {
                     callbacks: {
-                        title: (context) => {
-                            return context[0].label.replaceAll(',', ' ');
-                        },
+                        title: context => context[0].label.replaceAll(',', ' '),
                     },
                 },
                 legend: {
                     display: true,
                     labels: {
                         color: 'white',
-                        // This more specific font property overrides the global property
                         font: {
                             size: 0,
                         },
@@ -82,18 +87,17 @@ function chartProcesoInv() {
                     ticks: {
                         align: 'center',
                         beginAtZero: true,
-                        gace: '5%'
+                        grace: '5%',
                     }
                 },
                 y: {
-                    //Quita los dlabels del eje x
                     display: true,
                     ticks: {
                         color: 'white',
                         beginAtZero: true,
                     },
                     grid: {
-                        display: false
+                        display: false,
                     }
                 }
             }

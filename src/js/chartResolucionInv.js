@@ -1,37 +1,38 @@
-//Variable global Pie Resolucion de Carpetas.
+// Variable global Pie Resolucion de Carpetas.
 let myPieChartResolution;
+
 function pieChartResolucion() {
+    // Labels
+    const labels = {
+        sin_respuesta: 'Carpetas en trámite',
+        combate: 'Carpetas en favor del combate',
+        no_combate: 'Carpetas que no abonan al combate'
+    };
 
-    //Labels
-    var _sin_respuesta = 'Carpetas en trámite';
-    var _cambate = 'Carpetas en favor del combate';
-    var _no_combate = 'Carpetas que no abonan al combate';
+    // Colors
+    const colors = {
+        combate: '#27AE60', // green
+        no_combate: '#E74C3C', // red
+        sin_respuesta: '#FCF3CF' // yellow
+    };
 
-    //Color Pie
-    var _combate_color = '#27AE60'; //green
-    var _no_combate_color = '#E74C3C'; //red
-    var _sin_respuesta_color = '#FCF3CF'; //yellow
+    const numCombate = parseInt(info_estado.TotalCambate.replace("%", ""), 10);
+    const numNoCombate = parseInt(info_estado.TotalNoCombate.replace("%", ""), 10);
+    const sumSinRespuesta = 100 - (numCombate + numNoCombate);
 
-    var _num_combate = Math.floor(info_estado.TotalCambate.replace("%", ""));
-    var _num_no_combate = Math.floor(info_estado.TotalNoCombate.replace("%", ""));
-    var _sum_sin_respuesta = 100 - (_num_combate + _num_no_combate);
+    const graphArea = document.getElementById("ChartResolucion");
 
-    //Configuracion Char Resolucione de carpetas
-    var grapharea = document.getElementById("ChartResolucion");
+    // Destroy the chart if it exists
+    if (myPieChartResolution) myPieChartResolution.destroy();
 
-    //Si la chart existe la destruye antes de volverlo a usar.
-    if (this.myPieChartResolution)
-        this.myPieChartResolution.destroy();
-
-    //Crea de nuevo el Chart
-    this.myPieChartResolution = new Chart(grapharea, {
+    // Create the Chart
+    myPieChartResolution = new Chart(graphArea, {
         type: 'pie',
         data: {
-            labels: [_cambate, _no_combate, _sin_respuesta],
+            labels: [labels.combate, labels.no_combate, labels.sin_respuesta],
             datasets: [{
-                // label: 'My First Dataset',
-                data: [_num_combate, _num_no_combate, _sum_sin_respuesta],
-                backgroundColor: [_combate_color, _no_combate_color, _sin_respuesta_color],
+                data: [numCombate, numNoCombate, sumSinRespuesta],
+                backgroundColor: [colors.combate, colors.no_combate, colors.sin_respuesta],
                 hoverOffset: 4
             }]
         },
@@ -40,10 +41,8 @@ function pieChartResolucion() {
             plugins: {
                 tooltip: {
                     callbacks: {
-                        label: (context) => {
-                            return context.formattedValue + '%';
-                        },
-                    },
+                        label: context => `${context.formattedValue}%`
+                    }
                 }
             }
         }
