@@ -1,4 +1,4 @@
-datos_estados = {
+const datos_estados = {
     "2019": [
         {
             "Entidad": "Aguascalientes",
