@@ -1,0 +1,51 @@
+//Variable global Pie Resolucion de Carpetas.
+let myPieChartResolution;
+function pieChartResolucion() {
+
+    //Labels
+    var _sin_respuesta = 'Carpetas en trámite';
+    var _cambate = 'Carpetas en favor del combate';
+    var _no_combate = 'Carpetas que no abonan al combate';
+
+    //Color Pie
+    var _combate_color = '#27AE60'; //green
+    var _no_combate_color = '#E74C3C'; //red
+    var _sin_respuesta_color = '#FCF3CF'; //yellow
+
+    var _num_combate = Math.floor(info_estado.TotalCambate.replace("%", ""));
+    var _num_no_combate = Math.floor(info_estado.TotalNoCombate.replace("%", ""));
+    var _sum_sin_respuesta = 100 - (_num_combate + _num_no_combate);
+
+    //Configuracion Char Resolucione de carpetas
+    var grapharea = document.getElementById("ChartResolucion");
+
+    //Si la chart existe la destruye antes de volverlo a usar.
+    if (this.myPieChartResolution)
+        this.myPieChartResolution.destroy();
+
+    //Crea de nuevo el Chart
+    this.myPieChartResolution = new Chart(grapharea, {
+        type: 'pie',
+        data: {
+            labels: [_cambate, _no_combate, _sin_respuesta],
+            datasets: [{
+                // label: 'My First Dataset',
+                data: [_num_combate, _num_no_combate, _sum_sin_respuesta],
+                backgroundColor: [_combate_color, _no_combate_color, _sin_respuesta_color],
+                hoverOffset: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: (context) => {
+                            return context.formattedValue + '%';
+                        },
+                    },
+                }
+            }
+        }
+    });
+}
