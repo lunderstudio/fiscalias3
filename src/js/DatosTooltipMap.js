@@ -294,7 +294,7 @@ const datos_tootltip_23 = [
       "id": "MX-AGU",
       "value": 10,
       "Entidad": "Aguascalientes",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$1,935,166.66",
       "CombateCorrupción": "4%",
       "NoCombateCorrupción": "11%"
@@ -303,7 +303,7 @@ const datos_tootltip_23 = [
       "id": "MX-BCN",
       "value": 3,
       "Entidad": "Baja California",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$0.00",
       "CombateCorrupción": "NR",
       "NoCombateCorrupción": "NR"
@@ -312,7 +312,7 @@ const datos_tootltip_23 = [
       "id": "MX-BCS",
       "value": 2,
       "Entidad": "Baja California Sur",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$0.00",
       "CombateCorrupción": "NR",
       "NoCombateCorrupción": "NR"
@@ -321,7 +321,7 @@ const datos_tootltip_23 = [
       "id": "MX-CAM",
       "value": 9,
       "Entidad": "Campeche",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$0.00",
       "CombateCorrupción": "15%",
       "NoCombateCorrupción": "39%"
@@ -330,7 +330,7 @@ const datos_tootltip_23 = [
       "id": "MX-CHP",
       "value": 5,
       "Entidad": "Chiapas",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$0.00",
       "CombateCorrupción": "11%",
       "NoCombateCorrupción": "NR"
@@ -339,7 +339,7 @@ const datos_tootltip_23 = [
       "id": "MX-CHH",
       "value": 11,
       "Entidad": "Chihuahua",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$331,639.00",
       "CombateCorrupción": "15%",
       "NoCombateCorrupción": "NR"
@@ -348,7 +348,7 @@ const datos_tootltip_23 = [
       "id": "MX-CMX",
       "value": 7,
       "Entidad": "Ciudad de México",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "NR",
       "CombateCorrupción": "7%",
       "NoCombateCorrupción": "62%"
@@ -357,7 +357,7 @@ const datos_tootltip_23 = [
       "id": "MX-COA",
       "value": 10,
       "Entidad": "Coahuila",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$331,639.00",
       "CombateCorrupción": "15%",
       "NoCombateCorrupción": "NR"
@@ -366,7 +366,7 @@ const datos_tootltip_23 = [
       "id": "MX-COL",
       "value": 8,
       "Entidad": "Colima",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$28,423.00",
       "CombateCorrupción": "3%",
       "NoCombateCorrupción": "13%"
@@ -375,7 +375,7 @@ const datos_tootltip_23 = [
       "id": "MX-DUR",
       "value": 9,
       "Entidad": "Durango",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$7,318,934.99",
       "CombateCorrupción": "49%",
       "NoCombateCorrupción": "1%"
@@ -384,7 +384,7 @@ const datos_tootltip_23 = [
       "id": "",
       "value": 0,
       "Entidad": "Federal",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "NR",
       "CombateCorrupción": "NR",
       "NoCombateCorrupción": "NR"
@@ -393,7 +393,7 @@ const datos_tootltip_23 = [
       "id": "MX-GUA",
       "value": 8,
       "Entidad": "Guanajuato",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$25,432,454.50",
       "CombateCorrupción": "84%",
       "NoCombateCorrupción": "5%"
@@ -402,7 +402,7 @@ const datos_tootltip_23 = [
       "id": "MX-GRO",
       "value": 8,
       "Entidad": "Guerrero",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$0.00",
       "CombateCorrupción": "NR",
       "NoCombateCorrupción": "44%"
@@ -411,7 +411,7 @@ const datos_tootltip_23 = [
       "id": "MX-HID",
       "value": 7,
       "Entidad": "Hidalgo",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$3,000.00",
       "CombateCorrupción": "29%",
       "NoCombateCorrupción": "28%"
@@ -420,7 +420,7 @@ const datos_tootltip_23 = [
       "id": "MX-JAL",
       "value": 10,
       "Entidad": "Jalisco",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$11,999,565.35",
       "CombateCorrupción": "18%",
       "NoCombateCorrupción": "35%"
@@ -429,7 +429,7 @@ const datos_tootltip_23 = [
       "id": "MX-MEX",
       "value": 6,
       "Entidad": "México",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "NR",
       "CombateCorrupción": "NR",
       "NoCombateCorrupción": "NR"
@@ -438,7 +438,7 @@ const datos_tootltip_23 = [
       "id": "MX-MIC",
       "value": 9,
       "Entidad": "Michoacán",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "NR",
       "CombateCorrupción": "NR",
       "NoCombateCorrupción": "NR"
@@ -447,7 +447,7 @@ const datos_tootltip_23 = [
       "id": "MX-MOR",
       "value": 3,
       "Entidad": "Morelos",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "NR",
       "CombateCorrupción": "14%",
       "NoCombateCorrupción": "1%"
@@ -456,7 +456,7 @@ const datos_tootltip_23 = [
       "id": "MX-NAY",
       "value": 2,
       "Entidad": "Nayarit",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "NR",
       "CombateCorrupción": "NR",
       "NoCombateCorrupción": "NR"
@@ -465,7 +465,7 @@ const datos_tootltip_23 = [
       "id": "MX-NLE",
       "value": 11,
       "Entidad": "Nuevo León",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$5,187,020.23",
       "CombateCorrupción": "10%",
       "NoCombateCorrupción": "77%"
@@ -474,7 +474,7 @@ const datos_tootltip_23 = [
       "id": "MX-OAX",
       "value": 4,
       "Entidad": "Oaxaca",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$0.00",
       "CombateCorrupción": "3%",
       "NoCombateCorrupción": "16%"
@@ -483,7 +483,7 @@ const datos_tootltip_23 = [
       "id": "MX-PUE",
       "value": 11,
       "Entidad": "Puebla",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$82,387,241.64",
       "CombateCorrupción": "39%",
       "NoCombateCorrupción": "134%"
@@ -492,7 +492,7 @@ const datos_tootltip_23 = [
       "id": "MX-QUE",
       "value": 8,
       "Entidad": "Querétaro",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$103,851,095.14",
       "CombateCorrupción": "18%",
       "NoCombateCorrupción": "45%"
@@ -501,7 +501,7 @@ const datos_tootltip_23 = [
       "id": "MX-ROO",
       "value": 12,
       "Entidad": "Quintana Roo",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$134,332,062.24",
       "CombateCorrupción": "42%",
       "NoCombateCorrupción": "40%"
@@ -510,7 +510,7 @@ const datos_tootltip_23 = [
       "id": "MX-SLP",
       "value": 6,
       "Entidad": "San Luis Potosí",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$53,049,222.06",
       "CombateCorrupción": "22%",
       "NoCombateCorrupción": "59%"
@@ -519,7 +519,7 @@ const datos_tootltip_23 = [
       "id": "MX-SIN",
       "value": 9,
       "Entidad": "Sinaloa",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "NR",
       "CombateCorrupción": "31%",
       "NoCombateCorrupción": "NR"
@@ -528,7 +528,7 @@ const datos_tootltip_23 = [
       "id": "MX-SON",
       "value": 8,
       "Entidad": "Sonora",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "NR",
       "CombateCorrupción": "NR",
       "NoCombateCorrupción": "NR"
@@ -537,7 +537,7 @@ const datos_tootltip_23 = [
       "id": "MX-TAB",
       "value": 6,
       "Entidad": "Tabasco",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$0.00",
       "CombateCorrupción": "20%",
       "NoCombateCorrupción": "4%"
@@ -546,7 +546,7 @@ const datos_tootltip_23 = [
       "id": "MX-TAM",
       "value": 10,
       "Entidad": "Tamaulipas",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$18,000.00",
       "CombateCorrupción": "5%",
       "NoCombateCorrupción": "4%"
@@ -555,7 +555,7 @@ const datos_tootltip_23 = [
       "id": "MX-TLA",
       "value": 9,
       "Entidad": "Tlaxcala",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "NR",
       "CombateCorrupción": "NR",
       "NoCombateCorrupción": "NR"
@@ -564,7 +564,7 @@ const datos_tootltip_23 = [
       "id": "MX-VER",
       "value": 10,
       "Entidad": "Veracruz",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$0.00",
       "CombateCorrupción": "2%",
       "NoCombateCorrupción": "7%"
@@ -573,7 +573,7 @@ const datos_tootltip_23 = [
       "id": "MX-YUC",
       "value": 7,
       "Entidad": "Yucatán",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$NaN",
       "CombateCorrupción": "19%",
       "NoCombateCorrupción": "60%"
@@ -582,7 +582,7 @@ const datos_tootltip_23 = [
       "id": "MX-ZAC",
       "value": 7,
       "Entidad": "Zacatecas",
-      "Resultados": 2023,
+      "Resultados": "2023",
       "Monto": "$780,000.00",
       "CombateCorrupción": "6%",
       "NoCombateCorrupción": "28%"
