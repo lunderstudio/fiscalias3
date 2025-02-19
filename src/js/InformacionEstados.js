@@ -19,12 +19,12 @@ const datos_estados = {
             "NoAcciónPenal": "13",
             "Abstenciones": "1",
             "TotalNoCombate": "48%",
-            "Presupuesto": "1,767,612.00",
-            "Montos": "2,168,539.00"
+            "Presupuesto": "$1,767,612.00",
+            "Montos": "$2,168,539.00"
         },
         {
             "Entidad": "Baja California",
-            "Denuncias": "0",
+            "Denuncias": "NR",
             "Investigaciones": "NR",
             "Carpetas": "NR",
             "Imputaciones": "NR",
@@ -80,13 +80,13 @@ const datos_estados = {
             "Suspensiónes": "0",
             "Procedimiento": "0",
             "Reparaciónes": "0",
-            "TotalCambate": "0%",
+            "TotalCambate": "NR",
             "Archivos": "217",
             "NoAcciónPenal": "12",
             "Abstenciones": "2",
             "TotalNoCombate": "106%",
-            "Presupuesto": "1,094,437.00",
-            "Montos": "0.00"
+            "Presupuesto": "$1,094,437.00",
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Chiapas",
@@ -173,8 +173,8 @@ const datos_estados = {
             "NoAcciónPenal": "6",
             "Abstenciones": "0",
             "TotalNoCombate": "5%",
-            "Presupuesto": "51,219,068.00",
-            "Montos": "700,000.00"
+            "Presupuesto": "$51,219,068.00",
+            "Montos": "$700,000.00"
         },
         {
             "Entidad": "Colima",
@@ -195,8 +195,8 @@ const datos_estados = {
             "NoAcciónPenal": "14",
             "Abstenciones": "9",
             "TotalNoCombate": "15%",
-            "Presupuesto": "10,992,300.00",
-            "Montos": "0.00"
+            "Presupuesto": "$10,992,300.00",
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Durango",
@@ -216,11 +216,11 @@ const datos_estados = {
             "Archivos": "0",
             "NoAcciónPenal": "0",
             "Abstenciones": "0",
-            "TotalNoCombate": "0%",
-            "Presupuesto": "19,103,000.00",
-            "Montos": "0.00"
+            "TotalNoCombate": "NR",
+            "Presupuesto": "$19,103,000.00",
+            "Montos": "$0.00"
         },
-        {
+            {
             "Entidad": "Federal",
             "Denuncias": "932",
             "Investigaciones": "0",
@@ -231,16 +231,16 @@ const datos_estados = {
             "Judicialización": "0",
             "Criterio": "0",
             "Controversias": "0",
-            "Suspensiónes": "0",
-            "Procedimiento": "0",
-            "Reparaciónes": "0",
-            "TotalCambate": "0%",
+            "Suspensiónes": "NR",
+            "Procedimiento": "NR",
+            "Reparaciónes": "NR",
+            "TotalCambate": "NR",
             "Archivos": "0",
             "NoAcciónPenal": "0",
             "Abstenciones": "0",
-            "TotalNoCombate": "0%",
+            "TotalNoCombate": "NR",
             "Presupuesto": "NR",
-            "Montos": "0.00"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Guanajuato",
@@ -261,8 +261,8 @@ const datos_estados = {
             "NoAcciónPenal": "25",
             "Abstenciones": "1",
             "TotalNoCombate": "56%",
-            "Presupuesto": "13,292,802.52",
-            "Montos": "601,269.00"
+            "Presupuesto": "$13,292,802.52",
+            "Montos": "$601,269.00"
         },
         {
             "Entidad": "Guerrero",
@@ -278,13 +278,13 @@ const datos_estados = {
             "Suspensiónes": "0",
             "Procedimiento": "0",
             "Reparaciónes": "0",
-            "TotalCambate": "0%",
+            "TotalCambate": "NR",
             "Archivos": "0",
             "NoAcciónPenal": "5",
             "Abstenciones": "0",
             "TotalNoCombate": "21%",
             "Presupuesto": "NR",
-            "Montos": "0.00"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Hidalgo",
@@ -305,8 +305,8 @@ const datos_estados = {
             "NoAcciónPenal": "80",
             "Abstenciones": "0",
             "TotalNoCombate": "76%",
-            "Presupuesto": "13,921,754.00",
-            "Montos": "2,950,000.00"
+            "Presupuesto": "$13,921,754.00",
+            "Montos": "$2,950,000.00"
         },
         {
             "Entidad": "Jalisco",
@@ -327,30 +327,8 @@ const datos_estados = {
             "NoAcciónPenal": "9",
             "Abstenciones": "64",
             "TotalNoCombate": "29%",
-            "Presupuesto": "63,584,466.00",
-            "Montos": "0.00"
-        },
-        {
-            "Entidad": "México",
-            "Denuncias": "4287",
-            "Investigaciones": "4620",
-            "Carpetas": "4287",
-            "Imputaciones": "444",
-            "Vinculaciones": "127",
-            "Sentencias": "23",
-            "Judicialización": "444",
-            "Criterio": "0",
-            "Controversias": "0",
-            "Suspensiónes": "0",
-            "Procedimiento": "11",
-            "Reparaciónes": "0",
-            "TotalCambate": "11%",
-            "Archivos": "2671",
-            "NoAcciónPenal": "0",
-            "Abstenciones": "295",
-            "TotalNoCombate": "69%",
-            "Presupuesto": "240,745,697.00",
-            "Montos": "NR"
+            "Presupuesto": "$63,584,466.00",
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Michoacán",
@@ -371,8 +349,8 @@ const datos_estados = {
             "NoAcciónPenal": "21",
             "Abstenciones": "3",
             "TotalNoCombate": "48%",
-            "Presupuesto": "4,562,742.00",
-            "Montos": "0.00"
+            "Presupuesto": "$4,562,742.00",
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Morelos",
@@ -394,6 +372,28 @@ const datos_estados = {
             "Abstenciones": "NR",
             "TotalNoCombate": "NR",
             "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "México",
+            "Denuncias": "4287",
+            "Investigaciones": "4620",
+            "Carpetas": "4287",
+            "Imputaciones": "444",
+            "Vinculaciones": "127",
+            "Sentencias": "23",
+            "Judicialización": "444",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "11",
+            "Reparaciónes": "0",
+            "TotalCambate": "11%",
+            "Archivos": "2671",
+            "NoAcciónPenal": "0",
+            "Abstenciones": "295",
+            "TotalNoCombate": "69%",
+            "Presupuesto": "$240,745,697.00",
             "Montos": "NR"
         },
         {
@@ -438,7 +438,7 @@ const datos_estados = {
             "Abstenciones": "1",
             "TotalNoCombate": "41%",
             "Presupuesto": "NR",
-            "Montos": "0.00"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Oaxaca",
@@ -460,7 +460,7 @@ const datos_estados = {
             "Abstenciones": "NR",
             "TotalNoCombate": "NR",
             "Presupuesto": "NR",
-            "Montos": "NR.00"
+            "Montos": "NR"
         },
         {
             "Entidad": "Puebla",
@@ -481,8 +481,8 @@ const datos_estados = {
             "NoAcciónPenal": "761",
             "Abstenciones": "7",
             "TotalNoCombate": "100%",
-            "Presupuesto": "20,303,078.19",
-            "Montos": "0.00"
+            "Presupuesto": "$20,303,078.19",
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Querétaro",
@@ -503,8 +503,8 @@ const datos_estados = {
             "NoAcciónPenal": "19",
             "Abstenciones": "7",
             "TotalNoCombate": "47%",
-            "Presupuesto": "13,626,194.03",
-            "Montos": "0.00"
+            "Presupuesto": "$13,626,194.03",
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Quintana Roo",
@@ -525,8 +525,8 @@ const datos_estados = {
             "NoAcciónPenal": "127",
             "Abstenciones": "3",
             "TotalNoCombate": "29%",
-            "Presupuesto": "44,502,135.00",
-            "Montos": "216,880,480.94"
+            "Presupuesto": "$44,502,135.00",
+            "Montos": "$216,880,480.94"
         },
         {
             "Entidad": "San Luis Potosí",
@@ -548,7 +548,7 @@ const datos_estados = {
             "Abstenciones": "6",
             "TotalNoCombate": "58%",
             "Presupuesto": "NR",
-            "Montos": "0.00"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Sinaloa",
@@ -570,7 +570,7 @@ const datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "220%",
             "Presupuesto": "NR",
-            "Montos": "0.00"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Sonora",
@@ -591,8 +591,8 @@ const datos_estados = {
             "NoAcciónPenal": "91",
             "Abstenciones": "1",
             "TotalNoCombate": "43%",
-            "Presupuesto": "57,941,693.00",
-            "Montos": "81,012.22"
+            "Presupuesto": "$57,941,693.00",
+            "Montos": "$81,012.22"
         },
         {
             "Entidad": "Tabasco",
@@ -614,7 +614,7 @@ const datos_estados = {
             "Abstenciones": "10",
             "TotalNoCombate": "24%",
             "Presupuesto": "NR",
-            "Montos": "0.00"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Tamaulipas",
@@ -635,8 +635,8 @@ const datos_estados = {
             "NoAcciónPenal": "172",
             "Abstenciones": "29",
             "TotalNoCombate": "54%",
-            "Presupuesto": "1,856,157.93",
-            "Montos": "0.00"
+            "Presupuesto": "$1,856,157.93",
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Tlaxcala",
@@ -652,13 +652,13 @@ const datos_estados = {
             "Suspensiónes": "0",
             "Procedimiento": "0",
             "Reparaciónes": "0",
-            "TotalCambate": "0%",
+            "TotalCambate": "NR",
             "Archivos": "0",
             "NoAcciónPenal": "0",
             "Abstenciones": "0",
-            "TotalNoCombate": "0%",
-            "Presupuesto": "8,205,784.34",
-            "Montos": "0.00"
+            "TotalNoCombate": "NR",
+            "Presupuesto": "$8,205,784.34",
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Veracruz",
@@ -702,7 +702,7 @@ const datos_estados = {
             "Abstenciones": "1",
             "TotalNoCombate": "13%",
             "Presupuesto": "NR",
-            "Montos": "0.00"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Zacatecas",
@@ -723,8 +723,8 @@ const datos_estados = {
             "NoAcciónPenal": "0",
             "Abstenciones": "74",
             "TotalNoCombate": "64%",
-            "Presupuesto": "4,425,217.37",
-            "Montos": "0.00"
+            "Presupuesto": "$4,425,217.37",
+            "Montos": "$0.00"
         }
     ],
     "2020": [
@@ -901,8 +901,8 @@ const datos_estados = {
             "NoAcciónPenal": "39",
             "Abstenciones": "0",
             "TotalNoCombate": "111%",
-            "Presupuesto": "$47,615,147.37 ",
-            "Montos": "$1,906,970.09 "
+            "Presupuesto": "$47,615,147.37",
+            "Montos": "$1,906,970.09"
         },
         {
             "Entidad": "Colima",
@@ -989,7 +989,7 @@ const datos_estados = {
             "NoAcciónPenal": "25",
             "Abstenciones": "1",
             "TotalNoCombate": "44%",
-            "Presupuesto": "$13,292,802.52 ",
+            "Presupuesto": "$13,292,802.52",
             "Montos": "$22,205.00"
         },
         {
@@ -1006,7 +1006,7 @@ const datos_estados = {
             "Suspensiónes": "0",
             "Procedimiento": "0",
             "Reparaciónes": "0",
-            "TotalCambate": "0%",
+            "TotalCambate": "NR",
             "Archivos": "1",
             "NoAcciónPenal": "2",
             "Abstenciones": "0",
@@ -1059,28 +1059,6 @@ const datos_estados = {
             "Montos": "$0.00"
         },
         {
-            "Entidad": "México",
-            "Denuncias": "NR",
-            "Investigaciones": "NR",
-            "Carpetas": "NR",
-            "Imputaciones": "NR",
-            "Vinculaciones": "NR",
-            "Sentencias": "NR",
-            "Judicialización": "NR",
-            "Criterio": "NR",
-            "Controversias": "NR",
-            "Suspensiónes": "NR",
-            "Procedimiento": "NR",
-            "Reparaciónes": "NR",
-            "TotalCambate": "",
-            "Archivos": "NR",
-            "NoAcciónPenal": "NR",
-            "Abstenciones": "NR",
-            "TotalNoCombate": "",
-            "Presupuesto": "$273,447,994.20",
-            "Montos": "NR"
-        },
-        {
             "Entidad": "Michoacán",
             "Denuncias": "119",
             "Investigaciones": "119",
@@ -1100,7 +1078,7 @@ const datos_estados = {
             "Abstenciones": "4",
             "TotalNoCombate": "30%",
             "Presupuesto": "$8,600,773.00",
-            "Montos": "$4,748.14 "
+            "Montos": "$4,748.14"
         },
         {
             "Entidad": "Morelos",
@@ -1116,12 +1094,34 @@ const datos_estados = {
             "Suspensiónes": "NR",
             "Procedimiento": "NR",
             "Reparaciónes": "NR",
-            "TotalCambate": "",
+            "TotalCambate": "NR",
             "Archivos": "NR",
             "NoAcciónPenal": "NR",
             "Abstenciones": "NR",
-            "TotalNoCombate": "",
+            "TotalNoCombate": "NR",
             "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "México",
+            "Denuncias": "NR",
+            "Investigaciones": "NR",
+            "Carpetas": "NR",
+            "Imputaciones": "NR",
+            "Vinculaciones": "NR",
+            "Sentencias": "NR",
+            "Judicialización": "NR",
+            "Criterio": "NR",
+            "Controversias": "NR",
+            "Suspensiónes": "NR",
+            "Procedimiento": "NR",
+            "Reparaciónes": "NR",
+            "TotalCambate": "NR",
+            "Archivos": "NR",
+            "NoAcciónPenal": "NR",
+            "Abstenciones": "NR",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "$273,447,994.20",
             "Montos": "NR"
         },
         {
@@ -1138,11 +1138,11 @@ const datos_estados = {
             "Suspensiónes": "NR",
             "Procedimiento": "NR",
             "Reparaciónes": "NR",
-            "TotalCambate": "",
+            "TotalCambate": "NR",
             "Archivos": "NR",
             "NoAcciónPenal": "NR",
             "Abstenciones": "NR",
-            "TotalNoCombate": "",
+            "TotalNoCombate": "NR",
             "Presupuesto": "NR",
             "Montos": "NR"
         },
@@ -1182,11 +1182,11 @@ const datos_estados = {
             "Suspensiónes": "NR",
             "Procedimiento": "NR",
             "Reparaciónes": "NR",
-            "TotalCambate": "",
+            "TotalCambate": "NR",
             "Archivos": "NR",
             "NoAcciónPenal": "NR",
             "Abstenciones": "NR",
-            "TotalNoCombate": "",
+            "TotalNoCombate": "NR",
             "Presupuesto": "NR",
             "Montos": "NR"
         },
@@ -1209,7 +1209,7 @@ const datos_estados = {
             "NoAcciónPenal": "618",
             "Abstenciones": "0",
             "TotalNoCombate": "59%",
-            "Presupuesto": "$29,959,794.65 ",
+            "Presupuesto": "$29,959,794.65",
             "Montos": "$0.00"
         },
         {
@@ -1254,7 +1254,7 @@ const datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "13%",
             "Presupuesto": "$44,502,135.00",
-            "Montos": "$31,627,428.11 "
+            "Montos": "$31,627,428.11"
         },
         {
             "Entidad": "San Luis Potosí",
@@ -1385,7 +1385,7 @@ const datos_estados = {
             "NoAcciónPenal": "16",
             "Abstenciones": "0",
             "TotalNoCombate": "8%",
-            "Presupuesto": "$10,441,710.43 ",
+            "Presupuesto": "$10,441,710.43",
             "Montos": "$0.00"
         },
         {
@@ -1402,11 +1402,11 @@ const datos_estados = {
             "Suspensiónes": "NR",
             "Procedimiento": "NR",
             "Reparaciónes": "NR",
-            "TotalCambate": "",
+            "TotalCambate": "NR",
             "Archivos": "NR",
             "NoAcciónPenal": "NR",
             "Abstenciones": "NR",
-            "TotalNoCombate": "",
+            "TotalNoCombate": "NR",
             "Presupuesto": "NR",
             "Montos": "NR"
         },
@@ -1451,7 +1451,7 @@ const datos_estados = {
             "NoAcciónPenal": "0",
             "Abstenciones": "68",
             "TotalNoCombate": "54%",
-            "Presupuesto": "$7,502,893.49 ",
+            "Presupuesto": "$7,502,893.49",
             "Montos": "$0.00"
         }
     ],
@@ -1476,7 +1476,7 @@ const datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "8%",
             "Presupuesto": "$7,506,000.00",
-            "Montos": "$19,594,630.43 "
+            "Montos": "$19,594,630.43"
         },
         {
             "Entidad": "Baja California",
@@ -1629,8 +1629,8 @@ const datos_estados = {
             "NoAcciónPenal": "39",
             "Abstenciones": "0",
             "TotalNoCombate": "71%",
-            "Presupuesto": "$28,222,873.56 ",
-            "Montos": "$5,545,185.87 "
+            "Presupuesto": "$28,222,873.56",
+            "Montos": "$5,545,185.87"
         },
         {
             "Entidad": "Colima",
@@ -1674,7 +1674,7 @@ const datos_estados = {
             "Abstenciones": "3",
             "TotalNoCombate": "5%",
             "Presupuesto": "$24,409,097.00",
-            "Montos": "$867,934.48 "
+            "Montos": "$867,934.48"
         },
         {
             "Entidad": "Federal",
@@ -1696,7 +1696,7 @@ const datos_estados = {
             "Abstenciones": "114",
             "TotalNoCombate": "16%",
             "Presupuesto": "$123,531,300.00",
-            "Montos": "NR"
+            "Montos": "$0.00"
         },
         {
             "Entidad": "Guanajuato",
@@ -1717,7 +1717,7 @@ const datos_estados = {
             "NoAcciónPenal": "34",
             "Abstenciones": "0",
             "TotalNoCombate": "69%",
-            "Presupuesto": "$13,292,802.52 ",
+            "Presupuesto": "$13,292,802.52",
             "Montos": "$1,748,326.00"
         },
         {
@@ -1734,7 +1734,7 @@ const datos_estados = {
             "Suspensiónes": "0",
             "Procedimiento": "0",
             "Reparaciónes": "0",
-            "TotalCambate": "0%",
+            "TotalCambate": "NR",
             "Archivos": "0",
             "NoAcciónPenal": "4",
             "Abstenciones": "0",
@@ -1787,33 +1787,11 @@ const datos_estados = {
             "Montos": "$0.00"
         },
         {
-            "Entidad": "México",
-            "Denuncias": "4342",
-            "Investigaciones": "4284",
-            "Carpetas": "4342",
-            "Imputaciones": "7",
-            "Vinculaciones": "83",
-            "Sentencias": "25",
-            "Judicialización": "194",
-            "Criterio": "0",
-            "Controversias": "0",
-            "Suspensiónes": "27",
-            "Procedimiento": "8",
-            "Reparaciónes": "1",
-            "TotalCambate": "5%",
-            "Archivos": "590",
-            "NoAcciónPenal": "3",
-            "Abstenciones": "114",
-            "TotalNoCombate": "16%",
-            "Presupuesto": "$277,331,502.60",
-            "Montos": "NR"
-        },
-        {
             "Entidad": "Michoacán",
             "Denuncias": "105",
             "Investigaciones": "105",
             "Carpetas": "105",
-            "Imputaciones": "NR",
+            "Imputaciones": "7",
             "Vinculaciones": "0",
             "Sentencias": "0",
             "Judicialización": "19",
@@ -1835,7 +1813,7 @@ const datos_estados = {
             "Denuncias": "NR",
             "Investigaciones": "NR",
             "Carpetas": "NR",
-            "Imputaciones": "194",
+            "Imputaciones": "NR",
             "Vinculaciones": "NR",
             "Sentencias": "NR",
             "Judicialización": "NR",
@@ -1850,6 +1828,28 @@ const datos_estados = {
             "Abstenciones": "NR",
             "TotalNoCombate": "NR",
             "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "México",
+            "Denuncias": "4342",
+            "Investigaciones": "4284",
+            "Carpetas": "4342",
+            "Imputaciones": "194",
+            "Vinculaciones": "83",
+            "Sentencias": "25",
+            "Judicialización": "194",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "27",
+            "Procedimiento": "8",
+            "Reparaciónes": "1",
+            "TotalCambate": "5%",
+            "Archivos": "590",
+            "NoAcciónPenal": "3",
+            "Abstenciones": "114",
+            "TotalNoCombate": "16%",
+            "Presupuesto": "$277,331,502.60",
             "Montos": "NR"
         },
         {
@@ -1937,7 +1937,7 @@ const datos_estados = {
             "NoAcciónPenal": "348",
             "Abstenciones": "0",
             "TotalNoCombate": "31%",
-            "Presupuesto": "$29,131,466.82 ",
+            "Presupuesto": "$29,131,466.82",
             "Montos": "$0.00"
         },
         {
@@ -1959,7 +1959,7 @@ const datos_estados = {
             "NoAcciónPenal": "15",
             "Abstenciones": "3",
             "TotalNoCombate": "36%",
-            "Presupuesto": "$18,539,365.86 ",
+            "Presupuesto": "$18,539,365.86",
             "Montos": "$1,000,000.00"
         },
         {
@@ -1982,7 +1982,7 @@ const datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "40%",
             "Presupuesto": "$44,502,135.00",
-            "Montos": "$1,664,924,645.48 "
+            "Montos": "$1,664,924,645.48"
         },
         {
             "Entidad": "San Luis Potosí",
@@ -2003,7 +2003,7 @@ const datos_estados = {
             "NoAcciónPenal": "34",
             "Abstenciones": "2",
             "TotalNoCombate": "20%",
-            "Presupuesto": "$5,071,058.42 ",
+            "Presupuesto": "$5,071,058.42",
             "Montos": "$0.00"
         },
         {
@@ -2291,7 +2291,7 @@ const datos_estados = {
             "NoAcciónPenal": "25",
             "Abstenciones": "0",
             "TotalNoCombate": "32%",
-            "Presupuesto": "$11,737,853.64 ",
+            "Presupuesto": "$11,737,853.64",
             "Montos": "NR"
         },
         {
@@ -2314,7 +2314,7 @@ const datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "30%",
             "Presupuesto": "$62,512,466.00",
-            "Montos": "$2,828,556.08 "
+            "Montos": "$2,828,556.08"
         },
         {
             "Entidad": "Ciudad de México",
@@ -2357,7 +2357,7 @@ const datos_estados = {
             "NoAcciónPenal": "36",
             "Abstenciones": "0",
             "TotalNoCombate": "21%",
-            "Presupuesto": "$28,222,873.56 ",
+            "Presupuesto": "$28,222,873.56",
             "Montos": "$3,085,822.00"
         },
         {
@@ -2445,8 +2445,8 @@ const datos_estados = {
             "NoAcciónPenal": "44",
             "Abstenciones": "NR",
             "TotalNoCombate": "69%",
-            "Presupuesto": "$13,229,411.04 ",
-            "Montos": "$1,098,278.58 "
+            "Presupuesto": "$13,229,411.04",
+            "Montos": "$1,098,278.58"
         },
         {
             "Entidad": "Guerrero",
@@ -2462,7 +2462,7 @@ const datos_estados = {
             "Suspensiónes": "0",
             "Procedimiento": "0",
             "Reparaciónes": "0",
-            "TotalCambate": "0%",
+            "TotalCambate": "NR",
             "Archivos": "1",
             "NoAcciónPenal": "1",
             "Abstenciones": "0",
@@ -2511,7 +2511,7 @@ const datos_estados = {
             "NoAcciónPenal": "0",
             "Abstenciones": "286",
             "TotalNoCombate": "45%",
-            "Presupuesto": "$64,626,021.96 ",
+            "Presupuesto": "$64,626,021.96",
             "Montos": "$1,076,071.40"
         },
         {
@@ -2533,7 +2533,7 @@ const datos_estados = {
             "NoAcciónPenal": "319",
             "Abstenciones": "0",
             "TotalNoCombate": "9%",
-            "Presupuesto": "$241,668,378.86 ",
+            "Presupuesto": "$241,668,378.86",
             "Montos": "NR"
         },
         {
@@ -2556,7 +2556,7 @@ const datos_estados = {
             "Abstenciones": "12",
             "TotalNoCombate": "97%",
             "Presupuesto": "$9,475,885.00",
-            "Montos": "$2,149,923.97 "
+            "Montos": "$2,149,923.97"
         },
         {
             "Entidad": "Morelos",
@@ -2621,7 +2621,7 @@ const datos_estados = {
             "NoAcciónPenal": "4",
             "Abstenciones": "56",
             "TotalNoCombate": "38%",
-            "Presupuesto": "NR",
+            "Presupuesto": "$0.00",
             "Montos": "$0.00"
         },
         {
@@ -2665,7 +2665,7 @@ const datos_estados = {
             "NoAcciónPenal": "700",
             "Abstenciones": "1",
             "TotalNoCombate": "54%",
-            "Presupuesto": "$53,952,079.25 ",
+            "Presupuesto": "$53,952,079.25",
             "Montos": "$20,568.00"
         },
         {
@@ -2687,8 +2687,8 @@ const datos_estados = {
             "NoAcciónPenal": "52",
             "Abstenciones": "12",
             "TotalNoCombate": "22%",
-            "Presupuesto": "$20,005,784.56 ",
-            "Montos": "$3,261,223.07 "
+            "Presupuesto": "$20,005,784.56",
+            "Montos": "$3,261,223.07"
         },
         {
             "Entidad": "Quintana Roo",
@@ -2710,7 +2710,7 @@ const datos_estados = {
             "Abstenciones": "0",
             "TotalNoCombate": "69%",
             "Presupuesto": "$49,060,974.00",
-            "Montos": "$163,078,161.73 "
+            "Montos": "$163,078,161.73"
         },
         {
             "Entidad": "San Luis Potosí",
@@ -2776,7 +2776,7 @@ const datos_estados = {
             "Abstenciones": "2",
             "TotalNoCombate": "9%",
             "Presupuesto": "$63,556,554.00",
-            "Montos": "$4,762,580.76 "
+            "Montos": "$4,762,580.76"
         },
         {
             "Entidad": "Tabasco",
@@ -2796,7 +2796,7 @@ const datos_estados = {
             "Archivos": "0",
             "NoAcciónPenal": "0",
             "Abstenciones": "0",
-            "TotalNoCombate": "0%",
+            "TotalNoCombate": "NR",
             "Presupuesto": "NR",
             "Montos": "NR"
         },
@@ -2886,7 +2886,7 @@ const datos_estados = {
             "Abstenciones": "17",
             "TotalNoCombate": "149%",
             "Presupuesto": "$19,777,095.00",
-            "Montos": "$189,166.66 "
+            "Montos": "$189,166.66"
         },
         {
             "Entidad": "Zacatecas",
@@ -2907,8 +2907,736 @@ const datos_estados = {
             "NoAcciónPenal": "0",
             "Abstenciones": "150",
             "TotalNoCombate": "73%",
-            "Presupuesto": "$9,269,551.81 ",
+            "Presupuesto": "$9,269,551.81",
             "Montos": "$1,746,000.00"
         }
+    ],
+    "2023": [
+        {
+            "Entidad": "Aguascalientes",
+            "Denuncias": "47",
+            "Investigaciones": "6",
+            "Carpetas": "53",
+            "Imputaciones": "1",
+            "Vinculaciones": "1",
+            "Sentencias": "1",
+            "Judicialización": "2",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "4%",
+            "Archivos": "0",
+            "NoAcciónPenal": "6",
+            "Abstenciones": "0",
+            "TotalNoCombate": "11%",
+            "Presupuesto": "$8,823,600.00",
+            "Montos": "$1,935,166.66"
+        },
+        {
+            "Entidad": "Baja California",
+            "Denuncias": "0",
+            "Investigaciones": "0",
+            "Carpetas": "1",
+            "Imputaciones": "0",
+            "Vinculaciones": "0",
+            "Sentencias": "0",
+            "Judicialización": "0",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "NR",
+            "Archivos": "0",
+            "NoAcciónPenal": "0",
+            "Abstenciones": "0",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "$0.00",
+            "Montos": "$0.00"
+        },
+        {
+            "Entidad": "Baja California Sur",
+            "Denuncias": "36",
+            "Investigaciones": "0",
+            "Carpetas": "36",
+            "Imputaciones": "6",
+            "Vinculaciones": "5",
+            "Sentencias": "0",
+            "Judicialización": "0",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "NR",
+            "Archivos": "0",
+            "NoAcciónPenal": "0",
+            "Abstenciones": "0",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "NR",
+            "Montos": "$0.00"
+        },
+        {
+            "Entidad": "Campeche",
+            "Denuncias": "191",
+            "Investigaciones": "NR",
+            "Carpetas": "191",
+            "Imputaciones": "17",
+            "Vinculaciones": "25",
+            "Sentencias": "1",
+            "Judicialización": "17",
+            "Criterio": "NR",
+            "Controversias": "3",
+            "Suspensiónes": "6",
+            "Procedimiento": "NR",
+            "Reparaciónes": "3",
+            "TotalCambate": "15%",
+            "Archivos": "71",
+            "NoAcciónPenal": "2",
+            "Abstenciones": "2",
+            "TotalNoCombate": "39%",
+            "Presupuesto": "$11,406,731.00",
+            "Montos": "$0.00"
+        },
+        {
+            "Entidad": "Chiapas",
+            "Denuncias": "602",
+            "Investigaciones": "2",
+            "Carpetas": "123",
+            "Imputaciones": "23",
+            "Vinculaciones": "23",
+            "Sentencias": "5",
+            "Judicialización": "13",
+            "Criterio": "NR",
+            "Controversias": "NR",
+            "Suspensiónes": "NR",
+            "Procedimiento": "NR",
+            "Reparaciónes": "NR",
+            "TotalCambate": "11%",
+            "Archivos": "NR",
+            "NoAcciónPenal": "NR",
+            "Abstenciones": "NR",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "$13,607,850.12",
+            "Montos": "$0.00"
+        },
+        {
+            "Entidad": "Chihuahua",
+            "Denuncias": "53",
+            "Investigaciones": "0",
+            "Carpetas": "53",
+            "Imputaciones": "13",
+            "Vinculaciones": "13",
+            "Sentencias": "2",
+            "Judicialización": "8",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "15%",
+            "Archivos": "0",
+            "NoAcciónPenal": "0",
+            "Abstenciones": "0",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "$62,517,869.00",
+            "Montos": "$331,639.00"
+        },
+        {
+            "Entidad": "Ciudad de México",
+            "Denuncias": "800",
+            "Investigaciones": "NR",
+            "Carpetas": "800",
+            "Imputaciones": "59",
+            "Vinculaciones": "27",
+            "Sentencias": "NR",
+            "Judicialización": "59",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "NR",
+            "Reparaciónes": "NR",
+            "TotalCambate": "7%",
+            "Archivos": "446",
+            "NoAcciónPenal": "45",
+            "Abstenciones": "8",
+            "TotalNoCombate": "62%",
+            "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "Coahuila",
+            "Denuncias": "53",
+            "Investigaciones": "0",
+            "Carpetas": "53",
+            "Imputaciones": "13",
+            "Vinculaciones": "13",
+            "Sentencias": "2",
+            "Judicialización": "8",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "15%",
+            "Archivos": "0",
+            "NoAcciónPenal": "0",
+            "Abstenciones": "0",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "$62,517,869.00",
+            "Montos": "$331,639.00"
+        },
+        {
+            "Entidad": "Colima",
+            "Denuncias": "279",
+            "Investigaciones": "1",
+            "Carpetas": "279",
+            "Imputaciones": "5",
+            "Vinculaciones": "3",
+            "Sentencias": "0",
+            "Judicialización": "5",
+            "Criterio": "2",
+            "Controversias": "0",
+            "Suspensiónes": "1",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "3%",
+            "Archivos": "0",
+            "NoAcciónPenal": "0",
+            "Abstenciones": "35",
+            "TotalNoCombate": "13%",
+            "Presupuesto": "NR",
+            "Montos": "$28,423.00"
+        },
+        {
+            "Entidad": "Durango",
+            "Denuncias": "541",
+            "Investigaciones": "0",
+            "Carpetas": "390",
+            "Imputaciones": "68",
+            "Vinculaciones": "65",
+            "Sentencias": "19",
+            "Judicialización": "74",
+            "Criterio": "3",
+            "Controversias": "59",
+            "Suspensiónes": "8",
+            "Procedimiento": "11",
+            "Reparaciónes": "35",
+            "TotalCambate": "49%",
+            "Archivos": "2",
+            "NoAcciónPenal": "0",
+            "Abstenciones": "2",
+            "TotalNoCombate": "1%",
+            "Presupuesto": "$42,000,000.00",
+            "Montos": "$7,318,934.99"
+        },
+        {
+            "Entidad": "Federal",
+            "Denuncias": "NR",
+            "Investigaciones": "NR",
+            "Carpetas": "NR",
+            "Imputaciones": "NR",
+            "Vinculaciones": "NR",
+            "Sentencias": "NR",
+            "Judicialización": "NR",
+            "Criterio": "NR",
+            "Controversias": "NR",
+            "Suspensiónes": "NR",
+            "Procedimiento": "NR",
+            "Reparaciónes": "NR",
+            "TotalCambate": "NR",
+            "Archivos": "NR",
+            "NoAcciónPenal": "NR",
+            "Abstenciones": "NR",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "Guanajuato",
+            "Denuncias": "62",
+            "Investigaciones": "NR",
+            "Carpetas": "62",
+            "Imputaciones": "14",
+            "Vinculaciones": "10",
+            "Sentencias": "4",
+            "Judicialización": "22",
+            "Criterio": "0",
+            "Controversias": "24",
+            "Suspensiónes": "2",
+            "Procedimiento": "4",
+            "Reparaciónes": "0",
+            "TotalCambate": "84%",
+            "Archivos": "0",
+            "NoAcciónPenal": "3",
+            "Abstenciones": "0",
+            "TotalNoCombate": "5%",
+            "Presupuesto": "$13,463,350.33",
+            "Montos": "$25,432,454.50"
+        },
+        {
+            "Entidad": "Guerrero",
+            "Denuncias": "18",
+            "Investigaciones": "18",
+            "Carpetas": "0",
+            "Imputaciones": "0",
+            "Vinculaciones": "0",
+            "Sentencias": "0",
+            "Judicialización": "0",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "NR",
+            "Archivos": "0",
+            "NoAcciónPenal": "8",
+            "Abstenciones": "0",
+            "TotalNoCombate": "44%",
+            "Presupuesto": "NR",
+            "Montos": "$0.00"
+        },
+        {
+            "Entidad": "Hidalgo",
+            "Denuncias": "336",
+            "Investigaciones": "336",
+            "Carpetas": "190",
+            "Imputaciones": "33",
+            "Vinculaciones": "29",
+            "Sentencias": "0",
+            "Judicialización": "34",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "19",
+            "Procedimiento": "1",
+            "Reparaciónes": "1",
+            "TotalCambate": "29%",
+            "Archivos": "0",
+            "NoAcciónPenal": "47",
+            "Abstenciones": "7",
+            "TotalNoCombate": "28%",
+            "Presupuesto": "$15,064,616.00",
+            "Montos": "$3,000.00"
+        },
+        {
+            "Entidad": "Jalisco",
+            "Denuncias": "877",
+            "Investigaciones": "19",
+            "Carpetas": "877",
+            "Imputaciones": "107",
+            "Vinculaciones": "35",
+            "Sentencias": "3",
+            "Judicialización": "107",
+            "Criterio": "1",
+            "Controversias": "0",
+            "Suspensiónes": "23",
+            "Procedimiento": "2",
+            "Reparaciónes": "27",
+            "TotalCambate": "18%",
+            "Archivos": "58",
+            "NoAcciónPenal": "1",
+            "Abstenciones": "252",
+            "TotalNoCombate": "35%",
+            "Presupuesto": "$74,138,792.00",
+            "Montos": "$11,999,565.35"
+        },
+        {
+            "Entidad": "México",
+            "Denuncias": "NR",
+            "Investigaciones": "NR",
+            "Carpetas": "NR",
+            "Imputaciones": "NR",
+            "Vinculaciones": "NR",
+            "Sentencias": "NR",
+            "Judicialización": "NR",
+            "Criterio": "NR",
+            "Controversias": "NR",
+            "Suspensiónes": "NR",
+            "Procedimiento": "NR",
+            "Reparaciónes": "NR",
+            "TotalCambate": "NR",
+            "Archivos": "NR",
+            "NoAcciónPenal": "NR",
+            "Abstenciones": "NR",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "Michoacán",
+            "Denuncias": "NR",
+            "Investigaciones": "NR",
+            "Carpetas": "NR",
+            "Imputaciones": "NR",
+            "Vinculaciones": "NR",
+            "Sentencias": "NR",
+            "Judicialización": "NR",
+            "Criterio": "NR",
+            "Controversias": "NR",
+            "Suspensiónes": "NR",
+            "Procedimiento": "NR",
+            "Reparaciónes": "NR",
+            "TotalCambate": "NR",
+            "Archivos": "NR",
+            "NoAcciónPenal": "NR",
+            "Abstenciones": "NR",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "Morelos",
+            "Denuncias": "344",
+            "Investigaciones": "5",
+            "Carpetas": "732",
+            "Imputaciones": "106",
+            "Vinculaciones": "23",
+            "Sentencias": "8",
+            "Judicialización": "106",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "14%",
+            "Archivos": "2",
+            "NoAcciónPenal": "3",
+            "Abstenciones": "5",
+            "TotalNoCombate": "1%",
+            "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "Nayarit",
+            "Denuncias": "NR",
+            "Investigaciones": "NR",
+            "Carpetas": "NR",
+            "Imputaciones": "NR",
+            "Vinculaciones": "NR",
+            "Sentencias": "NR",
+            "Judicialización": "NR",
+            "Criterio": "NR",
+            "Controversias": "NR",
+            "Suspensiónes": "NR",
+            "Procedimiento": "NR",
+            "Reparaciónes": "NR",
+            "TotalCambate": "NR",
+            "Archivos": "NR",
+            "NoAcciónPenal": "NR",
+            "Abstenciones": "NR",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "Nuevo León",
+            "Denuncias": "1554",
+            "Investigaciones": "1",
+            "Carpetas": "1554",
+            "Imputaciones": "49",
+            "Vinculaciones": "25",
+            "Sentencias": "5",
+            "Judicialización": "49",
+            "Criterio": "0",
+            "Controversias": "87",
+            "Suspensiónes": "15",
+            "Procedimiento": "1",
+            "Reparaciónes": "NR",
+            "TotalCambate": "10%",
+            "Archivos": "1099",
+            "NoAcciónPenal": "8",
+            "Abstenciones": "92",
+            "TotalNoCombate": "77%",
+            "Presupuesto": "NR",
+            "Montos": "$5,187,020.23"
+        },
+        {
+            "Entidad": "Oaxaca",
+            "Denuncias": "995",
+            "Investigaciones": "27",
+            "Carpetas": "995",
+            "Imputaciones": "25",
+            "Vinculaciones": "16",
+            "Sentencias": "0",
+            "Judicialización": "25",
+            "Criterio": "1",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "0",
+            "Reparaciónes": "1",
+            "TotalCambate": "3%",
+            "Archivos": "84",
+            "NoAcciónPenal": "67",
+            "Abstenciones": "11",
+            "TotalNoCombate": "16%",
+            "Presupuesto": "$21,954,368.66",
+            "Montos": "$0.00"
+        },
+        {
+            "Entidad": "Puebla",
+            "Denuncias": "395",
+            "Investigaciones": "21",
+            "Carpetas": "773",
+            "Imputaciones": "55",
+            "Vinculaciones": "65",
+            "Sentencias": "2",
+            "Judicialización": "67",
+            "Criterio": "0",
+            "Controversias": "188",
+            "Suspensiónes": "42",
+            "Procedimiento": "2",
+            "Reparaciónes": "NR",
+            "TotalCambate": "39%",
+            "Archivos": "0",
+            "NoAcciónPenal": "1032",
+            "Abstenciones": "1",
+            "TotalNoCombate": "134%",
+            "Presupuesto": "$50,860,029.04",
+            "Montos": "$82,387,241.64"
+        },
+        {
+            "Entidad": "Querétaro",
+            "Denuncias": "493",
+            "Investigaciones": "0",
+            "Carpetas": "493",
+            "Imputaciones": "52",
+            "Vinculaciones": "58",
+            "Sentencias": "17",
+            "Judicialización": "52",
+            "Criterio": "2",
+            "Controversias": "0",
+            "Suspensiónes": "23",
+            "Procedimiento": "10",
+            "Reparaciónes": "0",
+            "TotalCambate": "18%",
+            "Archivos": "4",
+            "NoAcciónPenal": "207",
+            "Abstenciones": "9",
+            "TotalNoCombate": "45%",
+            "Presupuesto": "$25,495,368.74",
+            "Montos": "$103,851,095.14"
+        },
+        {
+            "Entidad": "Quintana Roo",
+            "Denuncias": "351",
+            "Investigaciones": "4",
+            "Carpetas": "351",
+            "Imputaciones": "50",
+            "Vinculaciones": "24",
+            "Sentencias": "1",
+            "Judicialización": "50",
+            "Criterio": "89",
+            "Controversias": "NR",
+            "Suspensiónes": "10",
+            "Procedimiento": "1",
+            "Reparaciónes": "NR",
+            "TotalCambate": "42%",
+            "Archivos": "0",
+            "NoAcciónPenal": "130",
+            "Abstenciones": "11",
+            "TotalNoCombate": "40%",
+            "Presupuesto": "$47,468,431.00",
+            "Montos": "$134,332,062.24"
+        },
+        {
+            "Entidad": "San Luis Potosí",
+            "Denuncias": "143",
+            "Investigaciones": "0",
+            "Carpetas": "143",
+            "Imputaciones": "22",
+            "Vinculaciones": "24",
+            "Sentencias": "2",
+            "Judicialización": "22",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "4",
+            "Procedimiento": "2",
+            "Reparaciónes": "3",
+            "TotalCambate": "22%",
+            "Archivos": "29",
+            "NoAcciónPenal": "51",
+            "Abstenciones": "4",
+            "TotalNoCombate": "59%",
+            "Presupuesto": "$9,118,654.04",
+            "Montos": "$53,049,222.06"
+        },
+        {
+            "Entidad": "Sinaloa",
+            "Denuncias": "14",
+            "Investigaciones": "0",
+            "Carpetas": "13",
+            "Imputaciones": "20",
+            "Vinculaciones": "2",
+            "Sentencias": "0",
+            "Judicialización": "4",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "0",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "31%",
+            "Archivos": "0",
+            "NoAcciónPenal": "0",
+            "Abstenciones": "0",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "$5,160,216.49",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "Sonora",
+            "Denuncias": "NR",
+            "Investigaciones": "NR",
+            "Carpetas": "NR",
+            "Imputaciones": "NR",
+            "Vinculaciones": "45",
+            "Sentencias": "7",
+            "Judicialización": "NR",
+            "Criterio": "NR",
+            "Controversias": "NR",
+            "Suspensiónes": "NR",
+            "Procedimiento": "NR",
+            "Reparaciónes": "NR",
+            "TotalCambate": "NR",
+            "Archivos": "NR",
+            "NoAcciónPenal": "NR",
+            "Abstenciones": "NR",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "Tabasco",
+            "Denuncias": "80",
+            "Investigaciones": "0",
+            "Carpetas": "80",
+            "Imputaciones": "9",
+            "Vinculaciones": "9",
+            "Sentencias": "0",
+            "Judicialización": "15",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "1",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "20%",
+            "Archivos": "0",
+            "NoAcciónPenal": "0",
+            "Abstenciones": "3",
+            "TotalNoCombate": "4%",
+            "Presupuesto": "NR",
+            "Montos": "$0.00"
+        },
+        {
+            "Entidad": "Tamaulipas",
+            "Denuncias": "326",
+            "Investigaciones": "117",
+            "Carpetas": "273",
+            "Imputaciones": "14",
+            "Vinculaciones": "5",
+            "Sentencias": "3",
+            "Judicialización": "13",
+            "Criterio": "NR",
+            "Controversias": "0",
+            "Suspensiónes": "1",
+            "Procedimiento": "1",
+            "Reparaciónes": "0",
+            "TotalCambate": "5%",
+            "Archivos": "0",
+            "NoAcciónPenal": "6",
+            "Abstenciones": "5",
+            "TotalNoCombate": "4%",
+            "Presupuesto": "$8,591,687.64",
+            "Montos": "$18,000.00"
+        },
+        {
+            "Entidad": "Tlaxcala",
+            "Denuncias": "NR",
+            "Investigaciones": "NR",
+            "Carpetas": "NR",
+            "Imputaciones": "NR",
+            "Vinculaciones": "NR",
+            "Sentencias": "NR",
+            "Judicialización": "NR",
+            "Criterio": "NR",
+            "Controversias": "NR",
+            "Suspensiónes": "NR",
+            "Procedimiento": "NR",
+            "Reparaciónes": "NR",
+            "TotalCambate": "NR",
+            "Archivos": "NR",
+            "NoAcciónPenal": "NR",
+            "Abstenciones": "NR",
+            "TotalNoCombate": "NR",
+            "Presupuesto": "NR",
+            "Montos": "NR"
+        },
+        {
+            "Entidad": "Veracruz",
+            "Denuncias": "902",
+            "Investigaciones": "902",
+            "Carpetas": "902",
+            "Imputaciones": "10",
+            "Vinculaciones": "12",
+            "Sentencias": "5",
+            "Judicialización": "10",
+            "Criterio": "0",
+            "Controversias": "0",
+            "Suspensiónes": "9",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "2%",
+            "Archivos": "2",
+            "NoAcciónPenal": "26",
+            "Abstenciones": "32",
+            "TotalNoCombate": "7%",
+            "Presupuesto": "NR",
+            "Montos": "$0.00"
+        },
+        {
+            "Entidad": "Yucatán",
+            "Denuncias": "75",
+            "Investigaciones": "16",
+            "Carpetas": "47",
+            "Imputaciones": "8",
+            "Vinculaciones": "0",
+            "Sentencias": "1",
+            "Judicialización": "7",
+            "Criterio": "1",
+            "Controversias": "0",
+            "Suspensiónes": "1",
+            "Procedimiento": "0",
+            "Reparaciónes": "0",
+            "TotalCambate": "19%",
+            "Archivos": "9",
+            "NoAcciónPenal": "10",
+            "Abstenciones": "9",
+            "TotalNoCombate": "60%",
+            "Presupuesto": "$NaN",
+            "Montos": "$NaN"
+        },
+        {
+            "Entidad": "Zacatecas",
+            "Denuncias": "381",
+            "Investigaciones": "1",
+            "Carpetas": "381",
+            "Imputaciones": "16",
+            "Vinculaciones": "12",
+            "Sentencias": "1",
+            "Judicialización": "16",
+            "Criterio": "0",
+            "Controversias": "1",
+            "Suspensiónes": "5",
+            "Procedimiento": "1",
+            "Reparaciónes": "1",
+            "TotalCambate": "6%",
+            "Archivos": "67",
+            "NoAcciónPenal": "0",
+            "Abstenciones": "41",
+            "TotalNoCombate": "28%",
+            "Presupuesto": "$10,807,911.00",
+            "Montos": "$780,000.00"
+        }
     ]
-}
+};

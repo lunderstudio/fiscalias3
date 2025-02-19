@@ -23,12 +23,42 @@ function init() {
     </div>
   `;
   polygonSeries.heatRules.push({
-      property: "fill",
-      target: polygonSeries.mapPolygons.template,
-      min: am4core.color("#fff7e5"),
-      max: am4core.color("#ffb100")
+    property: "fill",
+    target: polygonSeries.mapPolygons.template,
+    min: am4core.color("#fff7e5"),
+    max: am4core.color("#ffb100")
   });
   polygonSeries.useGeodata = true;
+
+  // Add state names
+  const labelSeries = chart.series.push(new am4maps.MapImageSeries());
+  const labelTemplate = labelSeries.mapImages.template.createChild(am4core.Label);
+  labelTemplate.horizontalCenter = "middle";
+  labelTemplate.verticalCenter = "middle";
+  labelTemplate.fontSize = 10;
+  labelTemplate.nonScaling = true;
+  labelTemplate.interactionsEnabled = false;
+  labelTemplate.text = "{name}";
+
+  labelSeries.heatRules.push({
+    property: "fill",
+    target: labelTemplate,
+    min: am4core.color("#000000"),
+    max: am4core.color("#000000")
+  });
+
+  const labelBullet = labelSeries.mapImages.template.createChild(am4core.Circle);
+  labelBullet.radius = 4;
+  labelBullet.fill = am4core.color("#ffb100");
+  labelBullet.fillOpacity = 0;
+
+  labelSeries.data = datos_tootltip_23.map(state => ({
+    geometry: {
+      type: "Point",
+      coordinates: [state.longitude, state.latitude]
+    },
+    name: state.name
+  }));
 
   // Disable zoom
   chart.chartContainer.wheelable = false;
@@ -49,23 +79,23 @@ function init() {
   // Event handlers
   polygonSeries.mapPolygons.template.events.on("over", event => handleHover(event.target));
   polygonSeries.mapPolygons.template.events.on("hit", event => {
-      const estadName = event.target.dataItem.dataContext.name;
-      select_estado(estadName);
-      handleHover(event.target);
+    const estadName = event.target.dataItem.dataContext.name;
+    select_estado(estadName);
+    handleHover(event.target);
   });
   polygonSeries.mapPolygons.template.events.on("out", () => heatLegend.valueAxis.hideTooltip());
 
   function handleHover(mapPolygon) {
-      const value = mapPolygon.dataItem.value;
-      if (!isNaN(value)) {
-          heatLegend.valueAxis.showTooltipAt(value);
-      } else {
-          heatLegend.valueAxis.hideTooltip();
-      }
+    const value = mapPolygon.dataItem.value;
+    if (!isNaN(value)) {
+      heatLegend.valueAxis.showTooltipAt(value);
+    } else {
+      heatLegend.valueAxis.hideTooltip();
+    }
   }
 
   // Data
-  polygonSeries.data = datos_tootltip_22;
+  polygonSeries.data = datos_tootltip_23;
 }
 
 init();
