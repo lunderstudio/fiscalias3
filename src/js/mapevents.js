@@ -1,18 +1,20 @@
 function init() {
-  am4core.useTheme(am4themes_animated);
-
-  const chart = am4core.create("chartdiv", am4maps.MapChart);
-  chart.dragGrip.disabled = true;
-  chart.seriesContainer.inert = false;
-  chart.hiddenState.properties.opacity = 0; // creates initial fade-in
-
-  chart.geodata = am4geodata_mexicoLow;
-  chart.projection = new am4maps.projections.Miller();
-
-  const polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
-  const polygonTemplate = polygonSeries.mapPolygons.template;
-  polygonTemplate.tooltipText = "{name}: \n\t {value.value.formatNumber('#')}/12";
-  polygonTemplate.tooltipHTML = `
+    am4core.useTheme(am4themes_animated);
+  
+    const chart = am4core.create("chartdiv", am4maps.MapChart);
+    chart.dragGrip.disabled = true;
+    chart.seriesContainer.inert = false;
+    chart.hiddenState.properties.opacity = 0; // creates initial fade-in
+  
+    chart.geodata = am4geodata_mexicoLow;
+    chart.projection = new am4maps.projections.Miller();
+  
+    const polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
+    polygonSeries.useGeodata = true;
+    polygonSeries.data = datos_tootltip_23;
+    const polygonTemplate = polygonSeries.mapPolygons.template;
+    polygonTemplate.tooltipText = "{name}: \n\t {value.value.formatNumber('#')}/12";
+    polygonTemplate.tooltipHTML = `
     <div style="font-size: 12px; font-family: 'Roboto'; padding-bottom: 0;">
       <p style="margin-bottom: 5px;"><strong>{name}</strong></p>
       <small>Resultado {Resultados}</small>
@@ -22,80 +24,75 @@ function init() {
       <p style="margin-bottom: 5px;"><strong>{Monto}</strong><small> Monto recuperado</small></p>
     </div>
   `;
-  polygonSeries.heatRules.push({
-    property: "fill",
-    target: polygonSeries.mapPolygons.template,
-    min: am4core.color("#fff7e5"),
-    max: am4core.color("#ffb100")
-  });
-  polygonSeries.useGeodata = true;
-
-  // Add state names
-  const labelSeries = chart.series.push(new am4maps.MapImageSeries());
-  const labelTemplate = labelSeries.mapImages.template.createChild(am4core.Label);
-  labelTemplate.horizontalCenter = "middle";
-  labelTemplate.verticalCenter = "middle";
-  labelTemplate.fontSize = 10;
-  labelTemplate.nonScaling = true;
-  labelTemplate.interactionsEnabled = false;
-  labelTemplate.text = "{name}";
-
-  labelSeries.heatRules.push({
-    property: "fill",
-    target: labelTemplate,
-    min: am4core.color("#000000"),
-    max: am4core.color("#000000")
-  });
-
-  const labelBullet = labelSeries.mapImages.template.createChild(am4core.Circle);
-  labelBullet.radius = 4;
-  labelBullet.fill = am4core.color("#ffb100");
-  labelBullet.fillOpacity = 0;
-
-  labelSeries.data = datos_tootltip_23.map(state => ({
-    geometry: {
-      type: "Point",
-      coordinates: [state.longitude, state.latitude]
-    },
-    name: state.name
-  }));
-
-  // Disable zoom
-  chart.chartContainer.wheelable = false;
-  chart.seriesContainer.events.disableType("doublehit");
-  chart.chartContainer.background.events.disableType("doublehit");
-
-  // Add heat legend
-  const legendContainer = am4core.create("legenddiv", am4core.Container);
-  legendContainer.width = am4core.percent(100);
-  const heatLegend = legendContainer.createChild(am4maps.HeatLegend);
-  heatLegend.valign = "bottom";
-  heatLegend.align = "center";
-  heatLegend.width = am4core.percent(75);
-  heatLegend.series = polygonSeries;
-  heatLegend.orientation = "horizontal";
-  heatLegend.valueAxis.renderer.labels.template.fontSize = 10;
-
-  // Event handlers
-  polygonSeries.mapPolygons.template.events.on("over", event => handleHover(event.target));
-  polygonSeries.mapPolygons.template.events.on("hit", event => {
-    const estadName = event.target.dataItem.dataContext.name;
-    select_estado(estadName);
-    handleHover(event.target);
-  });
-  polygonSeries.mapPolygons.template.events.on("out", () => heatLegend.valueAxis.hideTooltip());
-
-  function handleHover(mapPolygon) {
-    const value = mapPolygon.dataItem.value;
-    if (!isNaN(value)) {
-      heatLegend.valueAxis.showTooltipAt(value);
-    } else {
-      heatLegend.valueAxis.hideTooltip();
+    polygonSeries.heatRules.push({
+        property: "fill",
+        target: polygonSeries.mapPolygons.template,
+        min: am4core.color("#fff7e5"),
+        max: am4core.color("#ffb100")
+    });
+  
+    // Create labels
+    const labelSeries = chart.series.push(new am4maps.MapImageSeries());
+    const labelTemplate = labelSeries.mapImages.template;
+    const label = labelTemplate.createChild(am4core.Label);
+  
+    label.text = "{Entidad}";
+    label.horizontalCenter = "middle";
+    label.verticalCenter = "middle";
+    label.interactionsEnabled = false;
+    label.nonScaling = true;
+    label.fontSize = 10;
+    label.fill = am4core.color("#000");
+  
+    labelTemplate.propertyFields.latitude = "latitude";
+    labelTemplate.propertyFields.longitude = "longitude";
+  
+    polygonSeries.events.on("inited", function() {
+        polygonSeries.mapPolygons.each(function(polygon) {
+            const dataContext = polygon.dataItem.dataContext;
+            if (dataContext.latitude && dataContext.longitude) {
+                const image = labelSeries.mapImages.create();
+                image.latitude = dataContext.latitude;
+                image.longitude = dataContext.longitude;
+                image.children.getIndex(0).text = dataContext.Entidad; // Agregar nombre de la entidad
+            }
+        });
+    });
+  
+    // Disable zoom
+    chart.chartContainer.wheelable = false;
+    chart.seriesContainer.events.disableType("doublehit");
+    chart.chartContainer.background.events.disableType("doublehit");
+  
+    // Add heat legend
+    const legendContainer = am4core.create("legenddiv", am4core.Container);
+    legendContainer.width = am4core.percent(100);
+    const heatLegend = legendContainer.createChild(am4maps.HeatLegend);
+    heatLegend.valign = "bottom";
+    heatLegend.align = "center";
+    heatLegend.width = am4core.percent(75);
+    heatLegend.series = polygonSeries;
+    heatLegend.orientation = "horizontal";
+    heatLegend.valueAxis.renderer.labels.template.fontSize = 10;
+  
+    // Event handlers
+    polygonSeries.mapPolygons.template.events.on("over", event => handleHover(event.target));
+    polygonSeries.mapPolygons.template.events.on("hit", event => {
+        const estadName = event.target.dataItem.dataContext.name;
+        select_estado(estadName);
+        handleHover(event.target);
+    });
+    polygonSeries.mapPolygons.template.events.on("out", () => heatLegend.valueAxis.hideTooltip());
+  
+    function handleHover(mapPolygon) {
+        const value = mapPolygon.dataItem.value;
+        if (!isNaN(value)) {
+            heatLegend.valueAxis.showTooltipAt(value);
+        } else {
+            heatLegend.valueAxis.hideTooltip();
+        }
     }
   }
-
-  // Data
-  polygonSeries.data = datos_tootltip_23;
-}
-
-init();
+  
+  init();
+  
