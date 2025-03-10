@@ -36,7 +36,7 @@ function select_estado(idEstado) {
     $("#idImputaciones").text(info_estado.Imputaciones);
     $("#idVinculaciones").text(info_estado.Vinculaciones);
     $("#idSentencias").text(info_estado.Sentencias);
-    $("#idTotalCombate").text(info_estado.TotalCambate);
+    $("#idTotalCombate").text(info_estado.TotalCombate);
     $("#idJudicialización").text(info_estado.Judicialización);
     $("#idCriterios").text(info_estado.Criterio);
     $("#idControversias").text(info_estado.Controversias);

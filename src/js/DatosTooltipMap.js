@@ -1,292 +1,292 @@
 const datos_tootltip_22 = [
-    {
-        id: "MX-AGU",
-        value: 10,
-        Entidad: "Aguascalientes",
-        Resultados: "2022",
-        Monto: "$314,242.50",
-        CombateCorrupción: "4%",
-        NoCombateCorrupción: "6%"
-    },
-    {
-        id: "MX-BCN",
-        value: 3,
-        Entidad: "Baja California",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "NR",
-        NoCombateCorrupción: "NR"
-    },
-    {
-        id: "MX-BCS",
-        value: 2,
-        Entidad: "Baja California Sur",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "NR",
-        NoCombateCorrupción: "NR"
-    },
-    {
-        id: "MX-CAM",
-        value: 9,
-        Entidad: "Campeche",
-        Resultados: "2022",
-        Monto: "$0.00",
-        CombateCorrupción: "12%",
-        NoCombateCorrupción: "27%"
-    },
-    {
-        id: "MX-CHP",
-        value: 5,
-        Entidad: "Chiapas",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "23%",
-        NoCombateCorrupción: "32%"
-    },
-    {
-        id: "MX-CHH",
-        value: 11,
-        Entidad: "Chihuahua",
-        Resultados: "2022",
-        Monto: "$2,828,556.08",
-        CombateCorrupción: "50%",
-        NoCombateCorrupción: "30%"
-    },
-    {
-        id: "MX-CMX",
-        value: 7,
-        Entidad: "Ciudad de México",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "9%",
-        NoCombateCorrupción: "88%"
-    },
-    {
-        id: "MX-COA",
-        value: 10,
-        Entidad: "Coahuila",
-        Resultados: "2022",
-        Monto: "$3,085,822.00",
-        CombateCorrupción: "11%",
-        NoCombateCorrupción: "21%"
-    },
-    {
-        id: "MX-COL",
-        value: 8,
-        Entidad: "Colima",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "NR",
-        NoCombateCorrupción: "NR"
-    },
-    {
-        id: "MX-DUR",
-        value: 9,
-        Entidad: "Durango",
-        Resultados: "2022",
-        Monto: "$120,000.00",
-        CombateCorrupción: "51%",
-        NoCombateCorrupción: "41%"
-    },
-    {
-        id: "MX-GUA",
-        value: 8,
-        Entidad: "Guanajuato",
-        Resultados: "2022",
-        Monto: "$1,098,278.58",
-        CombateCorrupción: "35%",
-        NoCombateCorrupción: "69%"
-    },
-    {
-        id: "MX-GRO",
-        value: 8,
-        Entidad: "Guerrero",
-        Resultados: "2022",
-        Monto: "$0.00",
-        CombateCorrupción: "0%",
-        NoCombateCorrupción: "12%"
-    },
-    {
-        id: "MX-HID",
-        value: 7,
-        Entidad: "Hidalgo",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "NR",
-        NoCombateCorrupción: "NR"
-    },
-    {
-        id: "MX-JAL",
-        value: 10,
-        Entidad: "Jalisco",
-        Resultados: "2022",
-        Monto: "$1,076,071.40",
-        CombateCorrupción: "7%",
-        NoCombateCorrupción: "45%"
-    },
-    {
-        id: "MX-MEX",
-        value: 6,
-        Entidad: "México",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "1%",
-        NoCombateCorrupción: "9%"
-    },
-    {
-        id: "MX-MIC",
-        value: 9,
-        Entidad: "Michoacán",
-        Resultados: "2022",
-        Monto: "$2,149,923.97",
-        CombateCorrupción: "10%",
-        NoCombateCorrupción: "97%"
-    },
-    {
-        id: "MX-MOR",
-        value: 3,
-        Entidad: "Morelos",
-        Resultados: "2022",
-        Monto: "$0.00",
-        CombateCorrupción: "16%",
-        NoCombateCorrupción: "8%"
-    },
-    {
-        id: "MX-NAY",
-        value: 2,
-        Entidad: "Nayarit",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "NR",
-        NoCombateCorrupción: "NR"
-    },
-    {
-        id: "MX-NLE",
-        value: 11,
-        Entidad: "Nuevo León",
-        Resultados: "2022",
-        Monto: "$0.00",
-        CombateCorrupción: "6%",
-        NoCombateCorrupción: "38%"
-    },
-    {
-        id: "MX-OAX",
-        value: 4,
-        Entidad: "Oaxaca",
-        Resultados: "2022",
-        Monto: "$0.00",
-        CombateCorrupción: "3%",
-        NoCombateCorrupción: "10%"
-    },
-    {
-        id: "MX-PUE",
-        value: 11,
-        Entidad: "Puebla",
-        Resultados: "2022",
-        Monto: "$20,568.00",
-        CombateCorrupción: "10%",
-        NoCombateCorrupción: "54%"
-    },
-    {
-        id: "MX-QUE",
-        value: 8,
-        Entidad: "Querétaro",
-        Resultados: "2022",
-        Monto: "$3,261,223.07",
-        CombateCorrupción: "12%",
-        NoCombateCorrupción: "22%"
-    },
-    {
-        id: "MX-ROO",
-        value: 12,
-        Entidad: "Quintana Roo",
-        Resultados: "2022",
-        Monto: "$163,078,161.73",
-        CombateCorrupción: "71%",
-        NoCombateCorrupción: "69%"
-    },
-    {
-        id: "MX-SLP",
-        value: 6,
-        Entidad: "San Luis Potosí",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "NR",
-        NoCombateCorrupción: "NR"
-    },
-    {
-        id: "MX-SIN",
-        value: 9,
-        Entidad: "Sinaloa",
-        Resultados: "2022",
-        Monto: "$0.00",
-        CombateCorrupción: "19%",
-        NoCombateCorrupción: "25%"
-    },
-    {
-        id: "MX-SON",
-        value: 8,
-        Entidad: "Sonora",
-        Resultados: "2022",
-        Monto: "$4,762,580.76",
-        CombateCorrupción: "13%",
-        NoCombateCorrupción: "9%"
-    },
-    {
-        id: "MX-TAB",
-        value: 6,
-        Entidad: "Tabasco",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "9%",
-        NoCombateCorrupción: "0%"
-    },
-    {
-        id: "MX-TAM",
-        value: 10,
-        Entidad: "Tamaulipas",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "9%",
-        NoCombateCorrupción: "47%"
-    },
-    {
-        id: "MX-TLA",
-        value: 9,
-        Entidad: "Tlaxcala",
-        Resultados: "2022",
-        Monto: "NR",
-        CombateCorrupción: "NR",
-        NoCombateCorrupción: "NR"
-    },
-    {
-        id: "MX-VER",
-        value: 10,
-        Entidad: "Veracruz",
-        Resultados: "2022",
-        Monto: "$0.00",
-        CombateCorrupción: "1%",
-        NoCombateCorrupción: "8%"
-    },
-    {
-        id: "MX-YUC",
-        value: 7,
-        Entidad: "Yucatán",
-        Resultados: "2022",
-        Monto: "$189,166.66",
-        CombateCorrupción: "36%",
-        NoCombateCorrupción: "149%"
-    },
-    {
-        id: "MX-ZAC",
-        value: 7,
-        Entidad: "Zacatecas",
-        Resultados: "2022",
-        Monto: "$1,746,000.00",
-        CombateCorrupción: "7%",
-        NoCombateCorrupción: "73%"
-    }
+  {
+    id: "MX-AGU",
+    value: 10,
+    Entidad: "Aguascalientes",
+    Resultados: "2022",
+    Monto: "$314,242.50",
+    CombateCorrupción: "4%",
+    NoCombateCorrupción: "6%"
+  },
+  {
+    id: "MX-BCN",
+    value: 3,
+    Entidad: "Baja California",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "NR",
+    NoCombateCorrupción: "NR"
+  },
+  {
+    id: "MX-BCS",
+    value: 2,
+    Entidad: "Baja California Sur",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "NR",
+    NoCombateCorrupción: "NR"
+  },
+  {
+    id: "MX-CAM",
+    value: 9,
+    Entidad: "Campeche",
+    Resultados: "2022",
+    Monto: "$0.00",
+    CombateCorrupción: "12%",
+    NoCombateCorrupción: "27%"
+  },
+  {
+    id: "MX-CHP",
+    value: 5,
+    Entidad: "Chiapas",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "23%",
+    NoCombateCorrupción: "32%"
+  },
+  {
+    id: "MX-CHH",
+    value: 11,
+    Entidad: "Chihuahua",
+    Resultados: "2022",
+    Monto: "$2,828,556.08",
+    CombateCorrupción: "50%",
+    NoCombateCorrupción: "30%"
+  },
+  {
+    id: "MX-CMX",
+    value: 7,
+    Entidad: "Ciudad de México",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "9%",
+    NoCombateCorrupción: "88%"
+  },
+  {
+    id: "MX-COA",
+    value: 10,
+    Entidad: "Coahuila",
+    Resultados: "2022",
+    Monto: "$3,085,822.00",
+    CombateCorrupción: "11%",
+    NoCombateCorrupción: "21%"
+  },
+  {
+    id: "MX-COL",
+    value: 8,
+    Entidad: "Colima",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "NR",
+    NoCombateCorrupción: "NR"
+  },
+  {
+    id: "MX-DUR",
+    value: 9,
+    Entidad: "Durango",
+    Resultados: "2022",
+    Monto: "$120,000.00",
+    CombateCorrupción: "51%",
+    NoCombateCorrupción: "41%"
+  },
+  {
+    id: "MX-GUA",
+    value: 8,
+    Entidad: "Guanajuato",
+    Resultados: "2022",
+    Monto: "$1,098,278.58",
+    CombateCorrupción: "35%",
+    NoCombateCorrupción: "69%"
+  },
+  {
+    id: "MX-GRO",
+    value: 8,
+    Entidad: "Guerrero",
+    Resultados: "2022",
+    Monto: "$0.00",
+    CombateCorrupción: "0%",
+    NoCombateCorrupción: "12%"
+  },
+  {
+    id: "MX-HID",
+    value: 7,
+    Entidad: "Hidalgo",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "NR",
+    NoCombateCorrupción: "NR"
+  },
+  {
+    id: "MX-JAL",
+    value: 10,
+    Entidad: "Jalisco",
+    Resultados: "2022",
+    Monto: "$1,076,071.40",
+    CombateCorrupción: "7%",
+    NoCombateCorrupción: "45%"
+  },
+  {
+    id: "MX-MEX",
+    value: 6,
+    Entidad: "México",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "1%",
+    NoCombateCorrupción: "9%"
+  },
+  {
+    id: "MX-MIC",
+    value: 9,
+    Entidad: "Michoacán",
+    Resultados: "2022",
+    Monto: "$2,149,923.97",
+    CombateCorrupción: "10%",
+    NoCombateCorrupción: "97%"
+  },
+  {
+    id: "MX-MOR",
+    value: 3,
+    Entidad: "Morelos",
+    Resultados: "2022",
+    Monto: "$0.00",
+    CombateCorrupción: "16%",
+    NoCombateCorrupción: "8%"
+  },
+  {
+    id: "MX-NAY",
+    value: 2,
+    Entidad: "Nayarit",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "NR",
+    NoCombateCorrupción: "NR"
+  },
+  {
+    id: "MX-NLE",
+    value: 11,
+    Entidad: "Nuevo León",
+    Resultados: "2022",
+    Monto: "$0.00",
+    CombateCorrupción: "6%",
+    NoCombateCorrupción: "38%"
+  },
+  {
+    id: "MX-OAX",
+    value: 4,
+    Entidad: "Oaxaca",
+    Resultados: "2022",
+    Monto: "$0.00",
+    CombateCorrupción: "3%",
+    NoCombateCorrupción: "10%"
+  },
+  {
+    id: "MX-PUE",
+    value: 11,
+    Entidad: "Puebla",
+    Resultados: "2022",
+    Monto: "$20,568.00",
+    CombateCorrupción: "10%",
+    NoCombateCorrupción: "54%"
+  },
+  {
+    id: "MX-QUE",
+    value: 8,
+    Entidad: "Querétaro",
+    Resultados: "2022",
+    Monto: "$3,261,223.07",
+    CombateCorrupción: "12%",
+    NoCombateCorrupción: "22%"
+  },
+  {
+    id: "MX-ROO",
+    value: 12,
+    Entidad: "Quintana Roo",
+    Resultados: "2022",
+    Monto: "$163,078,161.73",
+    CombateCorrupción: "71%",
+    NoCombateCorrupción: "69%"
+  },
+  {
+    id: "MX-SLP",
+    value: 6,
+    Entidad: "San Luis Potosí",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "NR",
+    NoCombateCorrupción: "NR"
+  },
+  {
+    id: "MX-SIN",
+    value: 9,
+    Entidad: "Sinaloa",
+    Resultados: "2022",
+    Monto: "$0.00",
+    CombateCorrupción: "19%",
+    NoCombateCorrupción: "25%"
+  },
+  {
+    id: "MX-SON",
+    value: 8,
+    Entidad: "Sonora",
+    Resultados: "2022",
+    Monto: "$4,762,580.76",
+    CombateCorrupción: "13%",
+    NoCombateCorrupción: "9%"
+  },
+  {
+    id: "MX-TAB",
+    value: 6,
+    Entidad: "Tabasco",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "9%",
+    NoCombateCorrupción: "0%"
+  },
+  {
+    id: "MX-TAM",
+    value: 10,
+    Entidad: "Tamaulipas",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "9%",
+    NoCombateCorrupción: "47%"
+  },
+  {
+    id: "MX-TLA",
+    value: 9,
+    Entidad: "Tlaxcala",
+    Resultados: "2022",
+    Monto: "NR",
+    CombateCorrupción: "NR",
+    NoCombateCorrupción: "NR"
+  },
+  {
+    id: "MX-VER",
+    value: 10,
+    Entidad: "Veracruz",
+    Resultados: "2022",
+    Monto: "$0.00",
+    CombateCorrupción: "1%",
+    NoCombateCorrupción: "8%"
+  },
+  {
+    id: "MX-YUC",
+    value: 7,
+    Entidad: "Yucatán",
+    Resultados: "2022",
+    Monto: "$189,166.66",
+    CombateCorrupción: "36%",
+    NoCombateCorrupción: "149%"
+  },
+  {
+    id: "MX-ZAC",
+    value: 7,
+    Entidad: "Zacatecas",
+    Resultados: "2022",
+    Monto: "$1,746,000.00",
+    CombateCorrupción: "7%",
+    NoCombateCorrupción: "73%"
+  }
 ];
 
 const datos_tootltip_23 = [
@@ -303,7 +303,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-BCN",
-    "value": 3,
+    "value": 6,
     "latitude": 30.8406,
     "longitude": -115.2838,
     "Entidad": "Baja California",
@@ -314,7 +314,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-BCS",
-    "value": 2,
+    "value": 6,
     "latitude": 25.0343,
     "longitude": -111.6661,
     "Entidad": "Baja California Sur",
@@ -347,7 +347,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-CHH",
-    "value": 11,
+    "value": 12,
     "latitude": 28.632996,
     "longitude": -106.0691,
     "Entidad": "Chihuahua",
@@ -369,7 +369,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-COA",
-    "value": 10,
+    "value": 12,
     "latitude": 27.0587,
     "longitude": -101.7068,
     "Entidad": "Coahuila",
@@ -391,7 +391,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-DUR",
-    "value": 9,
+    "value": 10,
     "latitude": 24.0223,
     "longitude": -104.6532,
     "Entidad": "Durango",
@@ -401,6 +401,7 @@ const datos_tootltip_23 = [
     "NoCombateCorrupción": "1%"
   },
   {
+    "value": 7,
     "Entidad": "Federal",
     "Resultados": "2023",
     "Monto": "NR",
@@ -431,7 +432,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-HID",
-    "value": 7,
+    "value": 9,
     "latitude": 20.0911,
     "longitude": -98.7624,
     "Entidad": "Hidalgo",
@@ -453,8 +454,8 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-MEX",
-    "value": 6,
-    "latitude": 19.0000,
+    "value": 4,
+    "latitude": 19,
     "longitude": -99.7233,
     "Entidad": "México",
     "Resultados": "2023",
@@ -464,7 +465,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-MIC",
-    "value": 9,
+    "value": 8,
     "latitude": 19.5665,
     "longitude": -101.7068,
     "Entidad": "Michoacán",
@@ -508,7 +509,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-OAX",
-    "value": 4,
+    "value": 3,
     "latitude": 17.0732,
     "longitude": -96.7266,
     "Entidad": "Oaxaca",
@@ -519,9 +520,9 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-PUE",
-    "value": 11,
-    "latitude": 18.7500,
-    "longitude": -97.7062,
+    "value": 9,
+    "latitude": 18.75,
+    "longitude": -97.6,
     "Entidad": "Puebla",
     "Resultados": "2023",
     "Monto": "$82,387,241.64",
@@ -541,7 +542,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-ROO",
-    "value": 12,
+    "value": 9,
     "latitude": 19.1817,
     "longitude": -88.4791,
     "Entidad": "Quintana Roo",
@@ -552,7 +553,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-SLP",
-    "value": 6,
+    "value": 8,
     "latitude": 22.1565,
     "longitude": -100.9855,
     "Entidad": "San Luis Potosí",
@@ -574,7 +575,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-SON",
-    "value": 8,
+    "value": 7,
     "latitude": 29.0729,
     "longitude": -110.9559,
     "Entidad": "Sonora",
@@ -607,9 +608,9 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-TLA",
-    "value": 9,
-    "latitude": 19.2180,
-    "longitude": -98.0000,
+    "value": 8,
+    "latitude": 19.218,
+    "longitude": -98,
     "Entidad": "Tlaxcala",
     "Resultados": "2023",
     "Monto": "NR",
@@ -629,7 +630,7 @@ const datos_tootltip_23 = [
   },
   {
     "id": "MX-YUC",
-    "value": 7,
+    "value": 6,
     "latitude": 20.7099,
     "longitude": -89.0943,
     "Entidad": "Yucatán",

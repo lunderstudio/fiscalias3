@@ -16,7 +16,7 @@ function pieChartResolucion() {
         sin_respuesta: '#FCF3CF' // yellow
     };
 
-    const numCombate = parseInt(info_estado.TotalCambate.replace("%", ""), 10);
+    const numCombate = parseInt(info_estado.TotalCombate.replace("%", ""), 10);
     const numNoCombate = parseInt(info_estado.TotalNoCombate.replace("%", ""), 10);
     const sumSinRespuesta = 100 - (numCombate + numNoCombate);
 
