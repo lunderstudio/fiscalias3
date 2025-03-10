@@ -16,23 +16,28 @@ const sheetToJson = (sheet, range) => XLSX.utils.sheet_to_json(sheet, { range })
 let resultados_json = sheetToJson(resultados_2023, 1);
 let autonomia_json = sheetToJson(autonomia_2023, 0);
 
-const transformValue = (value) =>
+const transformValue = (value) => 
     value === undefined 
-        ? "NA" : value === -1
-            ? "NR" : value === 0
-                ? "0" : value.toString();
+    ? "0" : value === -1 
+    ? "NR" : value.toString();
 
 const transformCurrency = (value) =>
     value === undefined 
         ? "NA" : value === -1 || value === "NR"
         ? "NR" : value === 0
-            ? "$0.00" : parseFloat(value).toLocaleString('en-US',
-                {
-                    style: 'currency',
-                    currency: 'USD',
-                    minimumFractionDigits: 2,
-                    maximumFractionDigits: 2
-                });
+        ? "$0.00" : parseFloat(value)
+        .toLocaleString('en-US', {
+                style: 'currency',
+                currency: 'USD',
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            });
+
+const transformItem = (value) =>
+    value === undefined 
+    ? "NA" : value === "0%" 
+    ?  value.toString() : value === 0 
+    ? "0%" : (parseFloat(value) * 100).toFixed(0) + '%'; 
 
 let transformedData = resultados_json.reduce((acc, row) => {
     const year = row["Año"];
@@ -49,15 +54,15 @@ let transformedData = resultados_json.reduce((acc, row) => {
         "Sentencias": transformValue(row["Sentencias_condenatorias"]),
         "Judicialización": transformValue(row["Judicialización"]),
         "Criterio": transformValue(row["Criterio de Oportunidad"]),
-        "Controversias": transformValue(row["Medios alternativos de solución de controversias"]),
+        "Controversias": transformValue(row["Controversias"]),
         "Suspensiónes": transformValue(row["Suspensión condicional del proceso"]),
         "Procedimiento": transformValue(row["Procedimiento abreviado"]),
         "Reparaciónes": transformValue(row["Reparación del daño"]),
-        "TotalCombate": row["Carpetas en favor del combate"] ? (parseFloat(row["Carpetas en favor del combate"]) * 100).toFixed(0) + '%' : 'NR',
+        "TotalCombate": transformItem(row["Carpetas en favor del combate"]),
         "Archivos": transformValue(row["Archivo temporal"]),
         "NoAcciónPenal": transformValue(row["No ejercicio de la acción penal"]),
         "Abstenciones": transformValue(row["Facultad de abstenerse a investigar"]),
-        "TotalNoCombate": row["Carpetas que no abonan al combate"] ? (parseFloat(row["Carpetas que no abonan al combate"]) * 100).toFixed(0) + '%' : 'NR',
+        "TotalNoCombate": transformItem(row["Carpetas que no abonan al combate"]),
         "Presupuesto": row["Presupuesto_otorgado"] !== undefined ? transformCurrency(row["Presupuesto_otorgado"]) : "NR",
         "Montos": row["Montos_recuperados"] !== undefined ? transformCurrency(row["Montos_recuperados"]) : "NR"
     });
@@ -81,14 +86,8 @@ const mappedData = resultados_json.map(entry => {
             Entidad: entry.Entidad.trim(),
             Resultados: year.toString(),
             Monto: transformCurrency(entry.Montos_recuperados),
-            CombateCorrupción: entry["Carpetas en favor del combate"]
-                ? (parseFloat(entry["Carpetas en favor del combate"]) * 100)
-                    .toFixed(0) + '%'
-                : 'NR',
-            NoCombateCorrupción: entry["Carpetas que no abonan al combate"]
-                ? (parseFloat(entry["Carpetas que no abonan al combate"]) * 100)
-                    .toFixed(0) + '%'
-                : 'NR'
+            CombateCorrupción: transformItem(entry["Carpetas en favor del combate"]),
+            NoCombateCorrupción: transformItem(entry["Carpetas que no abonan al combate"]),
         };
     }
 }).filter(entry => entry !== undefined);
