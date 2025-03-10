@@ -65,7 +65,7 @@ El archivo `chartResolution` contiene una función que crea un gráfico circular
 5. **Cálculo de Datos**:
     - Se calculan los valores numéricos (`numCombate`, `numNoCombate` y `sumSinRespuesta`) a partir de los datos proporcionados en `info_estado`.
     ```javascript
-    const numCombate = parseInt(info_estado.TotalCambate.replace("%", ""), 10);
+    const numCombate = parseInt(info_estado.TotalCombate.replace("%", ""), 10);
     const numNoCombate = parseInt(info_estado.TotalNoCombate.replace("%", ""), 10);
     const sumSinRespuesta = 100 - (numCombate + numNoCombate);
     ```
